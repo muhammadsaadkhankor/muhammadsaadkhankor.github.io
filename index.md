@@ -21,7 +21,7 @@ segmentation.
 
 ## News
 - **[Jan. 2023]** Our US patent about training Vision Transformers on small-scale datasets got approved for filing.
-- **[Sep. 2022]** I started  working with [Dr. Salman](https://salman-h-khan.github.io/) as a part of [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/)
+- **[Sep. 2022]** I started  working with [Dr. Salman](https://salman-h-khan.github.io/) as a part of [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/).
 - **[Sep. 2022]** I joined [MBZUAI](http://www.mbzuai.ac.ae) as a grad student in Machine Learning with full scholarship.
 - **[Oct. 2022]** Our paper about training Vision Transformers on small-scale datasets got accepted to BMVC 2022.
 - **[Oct. 2021]** I joined [BiomedIA Lab](https://mbzuai-biomedia.com/biomedia/) at [MBZUAI](http://www.mbzuai.ac.ae) as a Research Assistant.
