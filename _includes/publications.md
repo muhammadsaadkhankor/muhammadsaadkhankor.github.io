@@ -14,7 +14,7 @@
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://arxiv.org/pdf/2002.10211.pdf">How to Train Vision Transformer on Small-scale Datasets?</a></div>
     <div class="author"><strong>Hanan Gani</strong>, Muzammal Naseer, Mohammad Yaqub</div>
-    <div class="periodical"><em>33rd British Machine Vision Conference 2022, (BMVC) 2022, London, UK.</em></div>
+    <div class="periodical"><em>33rd British Machine Vision Conference 2022, (BMVC), London, UK.</em></div>
     <div class="links">
       <a href="https://bmvc2022.mpi-inf.mpg.de/0731.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/hananshafi/vits-for-small-scale-datasets" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
