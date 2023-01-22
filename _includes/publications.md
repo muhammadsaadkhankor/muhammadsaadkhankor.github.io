@@ -67,7 +67,7 @@
     <div class="links">
       <a href="https://ieeexplore.ieee.org/abstract/document/8600440" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/hananshafi/disguised-facial-recog" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      <strong><i style="color:#e74d3c">Arxiv Paper</i></strong>
+      <strong><i style="color:#e74d3c">Poster Presentation</i></strong>
     </div>
   </div>
 </div>
