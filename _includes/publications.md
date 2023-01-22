@@ -63,7 +63,7 @@
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://arxiv.org/pdf/2002.10211.pdf">Disguised Facial Recognition Using Neural Networks</a></div>
     <div class="author">S Kumaar, <strong>H. Gani</strong>, RM Vishwanath, SN Omkar, A Majeedi, A Dogra</div>
-    <div class="periodical"><em>ACM International Conference on Robotics and Computer Vision (ICRCV), 2018</em></div>
+    <div class="periodical"><em>IEEE 3rd International Conference on Signal and Image Processing (ICSIP), 2018</em></div>
     <div class="links">
       <a href="https://ieeexplore.ieee.org/abstract/document/8600440" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/hananshafi/disguised-facial-recog" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
