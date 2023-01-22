@@ -39,7 +39,7 @@
 
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://arxiv.org/pdf/2002.10211.pdf">How to Train Vision Transformer on Small-scale Datasets?</a></div>
-    <div class="author"><strong>Hanan Gani</strong>, Muzammal Naseer, Mohammad Yaqub</div>
+    <div class="author">Saumya Kumaar, Abhinandan Dogra, Abrar Majeedi, <strong>Hanan Gani</strong>, Ravi M. Vishwanath and S N Omkar</div>
     <div class="periodical"><em>ACM International Conference on Robotics and Computer Vision (ICRCV), 2018</em></div>
     <div class="links">
       <a href="https://arxiv.org/pdf/1809.02875.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
