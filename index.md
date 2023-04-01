@@ -20,6 +20,7 @@ segmentation.
 - **Machine Learning:** meta-learning, incremental learning, transfer learning -->
 
 ## News
+- **[March. 2023]** Served as a Reviewer at ICML 2023.
 - **[Jan. 2023]** Our US patent about training Vision Transformers on small-scale datasets got approved for filing.
 - **[Sep. 2022]** I started  working with [Dr. Salman](https://salman-h-khan.github.io/) as a part of [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/).
 - **[Sep. 2022]** I joined [MBZUAI](http://www.mbzuai.ac.ae) as a grad student in Machine Learning with full scholarship.
