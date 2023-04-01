@@ -13,8 +13,7 @@ I received my undergraduate degree in Electronics and Communication Engineering 
 
 ## Research Interests
 
-I am broadly interested in Self-Supervised learning, data-efficient Vision Transformers, open-world semantic segmentation using Vision-Language models, and 3D image
-segmentation.
+I am broadly interested in Label-efficient learning with applications to open-world settings, multi-modal learning, Diffusion modles and 3D segmentation.
 
 <!-- - **Computer Vision:** image recognition, image generation, video captioning
 - **Machine Learning:** meta-learning, incremental learning, transfer learning -->
