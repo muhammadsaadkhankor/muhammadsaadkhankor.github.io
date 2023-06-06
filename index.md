@@ -13,13 +13,14 @@ I received my undergraduate degree in Electronics and Communication Engineering 
 
 ## Research Interests
 
-I am broadly interested in Label-efficient learning with applications to open-world settings, multi-modal learning, Diffusion modles and 3D segmentation.
+I am broadly interested in Label-efficient learning with applications to open-world settings, multi-modal learning, Diffusion models and 3D segmentation.
 
 <!-- - **Computer Vision:** image recognition, image generation, video captioning
 - **Machine Learning:** meta-learning, incremental learning, transfer learning -->
 
 ## News
-- **[March. 2023]** Served as a Reviewer at ICML 2023.
+- **[June. 2023]** Joined Visual Computing Center (VCC) at [KAUST](https://cemse.kaust.edu.sa/vcc) as a Visiting Student under [Professor Peter Wonka](https://peterwonka.net/).
+- **[March. 2023]** Serving as a Reviewer at NeurIPS 2023 and ICML 2023.
 - **[Jan. 2023]** Our US patent about training Vision Transformers on small-scale datasets got approved for filing.
 - **[Sep. 2022]** I started  working with [Dr. Salman](https://salman-h-khan.github.io/) as a part of [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/).
 - **[Sep. 2022]** I joined [MBZUAI](http://www.mbzuai.ac.ae) as a grad student in Machine Learning with full scholarship.
