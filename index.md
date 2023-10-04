@@ -19,6 +19,8 @@ I am broadly interested in Label-efficient learning with applications to open-wo
 - **Machine Learning:** meta-learning, incremental learning, transfer learning -->
 
 ## News
+- **[September. 2023]** Our paper "Align your Prompts: Test-Time Prompting with Distribution Alignment for Zero-Shot Generalization" got accepted to NeurIPS 2023.
+- **[September. 2023]** Serving as a Reviewer at ICLR 2024.
 - **[June. 2023]** Joined Visual Computing Center (VCC) at [KAUST](https://cemse.kaust.edu.sa/vcc) as a Visiting Student under [Professor Peter Wonka](https://peterwonka.net/).
 - **[March. 2023]** Serving as a Reviewer at NeurIPS 2023 and ICML 2023.
 - **[Jan. 2023]** Our US patent about training Vision Transformers on small-scale datasets got approved for filing.
