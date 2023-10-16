@@ -12,7 +12,7 @@
 <ul style="margin:0 0 20px;">
   <li><autocolor>Teaching Assistant for Statistical Inference and Causality (ML703) course - Fall 2023</autocolor></li>
   <li><autocolor>Teaching Assistant for Machine Learning (ML701) course - Fall 2023</autocolor></li>
-</ul> -->
+</ul>
 
 
 ## Awards and Merits
