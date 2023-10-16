@@ -26,10 +26,3 @@
   <li><a href="https://www.minorityaffairs.gov.in/"><autocolor> Merit Based Scholarship granted for undergraduate studies by Ministry of Minority Affairs, India.</autocolor></a></li>
  <li><a href="https://en.wikipedia.org/wiki/Joint_Entrance_Examination_%E2%80%93_Advanced"><autocolor>Secured 80th state rank in IIT-JEE Mains 2014 (among top 1% of 1.5 million students across the country). </autocolor></a></li>
 </ul>
-
-<!-- <h4 style="margin:0 10px 0;">Journal Reviewers</h4>
-
-<ul style="margin:0 0 20px;">
-  <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</autocolor></a></li>
-  <li><a href="https://www.springer.com/journal/11263"><autocolor>International Journal of Computer Vision (IJCV)</autocolor></a></li>
-</ul>
