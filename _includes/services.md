@@ -4,7 +4,7 @@
 
 <ul style="margin:0 0 5px;">
   <li><autocolor>Serving as a Reviewer at ICLR and CVPR 2024</autocolor></li>
-  <li>Serving as a Reviewer at ICML and NeurIPS 2023</autocolor></li>
+  <li><autocolor>Serving as a Reviewer at ICML and NeurIPS 2023</autocolor></li>
 </ul>
 
 <h4 style="margin:0 10px 0;">Academic Services</h4>
