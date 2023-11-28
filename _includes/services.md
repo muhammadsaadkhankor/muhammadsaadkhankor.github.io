@@ -20,6 +20,7 @@
 <!-- <h4 style="margin:0 10px 0;">Work Experience</h4> -->
 
 <ul style="margin:0 0 5px;">
+  <li><a href="https://nips.cc/"><autocolor>Awarded NeurIPS 2023 Travel Grant.</autocolor></a></li>
   <li><a href="http://www.mbzuai.ac.ae"><autocolor>Full scholarship to study Masters in Machine Learning at the Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI).</autocolor></a></li>
   <li><a href="https://www.fatimafellowship.com/"><autocolor>Selected as Predoctoral fellow at Fatima Fellowship under Dr. Abubakr Abid.</autocolor></a></li>
   <li><a href="https://www.harman.com/India"><autocolor>Harman Star Excellence award from the Harman International India (Regional) Head.</autocolor></a></li>
