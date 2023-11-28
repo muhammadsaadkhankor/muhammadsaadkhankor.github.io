@@ -12,11 +12,11 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://openreview.net/forum?id=mNYF0IHbRy">LLM Blueprint: Enabling Text-to-Image Generation with Complex and Detailed Prompts </a></div>
+    <div class="title"><a href="https://arxiv.org/abs/2310.10640">LLM Blueprint: Enabling Text-to-Image Generation with Complex and Detailed Prompts </a></div>
     <div class="author"><strong>Hanan Gani</strong>, Shariq Farooq Bhat, Muzammal Naseer, Salman Khan, Peter Wonka</div>
     <div class="periodical"><em>Arxiv</em></div>
     <div class="links">
-      <a href="https://openreview.net/group?id=ICLR.cc/2024/Conference" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://arxiv.org/abs/2310.10640" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/hananshafi/llmblueprint/tree/main" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       <strong><i style="color:#e74d3c">Arxiv paper</i></strong>
     </div>
