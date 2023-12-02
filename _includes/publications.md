@@ -39,7 +39,7 @@
     <div class="author">Jameel Hassan *, <strong>Hanan Gani *</strong>, Noor Hussein, Uzair Khattak, Muzammal Naseer, Salman Khan, Fahad Khan</div>
     <div class="periodical"><em>37th Advances in Neural Information Processing Systems (NeurIPS), 2023</em></div>
     <div class="links">
-      <a href="https://nips.cc/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://arxiv.org/abs/2311.01459" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/jameelhassan/PromptAlign" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       <strong><i style="color:#e74d3c">Poster Presentation</i></strong>
     </div>
