@@ -18,7 +18,7 @@
     <div class="links">
       <a href="https://arxiv.org/abs/2310.10640" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/hananshafi/llmblueprint/tree/main" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      <strong><i style="color:#e74d3c">Arxiv paper</i></strong>
+      <strong><i style="color:#e74d3c">12th International Conference on Learning Representations (ICLR) 2024</i></strong>
     </div>
   </div>
 </div>
