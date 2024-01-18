@@ -19,6 +19,7 @@ I am broadly interested in Label-efficient learning in multi-modal settings with
 - **Machine Learning:** meta-learning, incremental learning, transfer learning -->
 
 ## News
+- **[Jan. 2024]** Our paper "LLM Blueprint: Enabling Text-to-Image Generation with Complex and Detailed Prompts" got accepted at ICLR 2024.
 - **[Oct. 2023]** Awarded NeurIPS 2023 Travel Grant.
 - **[Sept. 2023]** Our paper "Align your Prompts: Test-Time Prompting with Distribution Alignment for Zero-Shot Generalization" got accepted at NeurIPS 2023.
 - **[June. 2023]** Joined Visual Computing Center (VCC) at [KAUST](https://cemse.kaust.edu.sa/vcc) as a Visiting Student under [Professor Peter Wonka](https://peterwonka.net/).
