@@ -86,7 +86,7 @@
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://arxiv.org/abs/2402.08070">Multi-Attribute Vision Transformers are Efficient and Robust Learners</a></div>
     <div class="author"><strong>Hanan Gani</strong>, Nada Saadi, Noor Hussein and Karthik Nandakumar</div>
-    <div class="periodical"><em>Arxiv</em></div>
+    <div class="periodical"><em>Arxiv 2024</em></div>
     <div class="links">
       <a href="https://arxiv.org/abs/2402.08070.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/hananshafi/MTL-ViT" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
