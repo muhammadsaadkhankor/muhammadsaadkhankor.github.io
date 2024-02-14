@@ -41,6 +41,9 @@
     <div class="links">
       <a href="https://arxiv.org/abs/2311.01459" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/jameelhassan/PromptAlign" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      <a href="https://jameelhassan.github.io/promptalign/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
+      <a href="https://neurips.cc/media/PosterPDFs/NeurIPS%202023/72406.png?t=1701518650.4223518" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Poster</a>
+      <a href="https://neurips.cc/virtual/2023/poster/72406" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Slides & Video</a>
       <strong><i style="color:#e74d3c">Poster Presentation</i></strong>
     </div>
   </div>
