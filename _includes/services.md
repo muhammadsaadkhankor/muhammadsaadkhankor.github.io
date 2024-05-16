@@ -7,7 +7,7 @@
 </ul>
 
 <h4 style="margin:0 10px 0;">Academic Services</h4>
-<b   Teaching Assistant /b>
+Teaching Assistant
 <ul style="margin:0 0 20px;">
   <li><autocolor>Deep Learning (AI702) course - Spring 2024</autocolor></li>
   <li><autocolor>Vision-Language Foundational Models (CV806) course - Spring 2024</autocolor></li>
