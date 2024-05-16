@@ -18,6 +18,9 @@
     <div class="links">
       <a href="https://arxiv.org/abs/2310.10640" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/hananshafi/llmblueprint/tree/main" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      <a href="https://hananshafi.github.io/llm-blueprint/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
+      <a href="https://iclr.cc/media/PosterPDFs/ICLR%202024/17895.png?t=1712475019.5436091" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Poster</a>
+      <a href="https://iclr.cc/media/iclr-2024/Slides/17895_UdDSF8r.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Slides & Video</a>
       <strong><i style="color:#e74d3c">Poster Presentation</i></strong>
     </div>
   </div>
