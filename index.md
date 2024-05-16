@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a Master's student at the [Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI)](http://www.mbzuai.ac.ae) majoring in Machine Learning. At MBZUAI, I am affliated with the [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/). I am primarily advised by [Dr. Salman](https://salman-h-khan.github.io/) and mentored by  [Dr. Muzammal](https://muzammal-naseer.netlify.app/). My secondary advisor is [Dr. Fahad Khan](https://sites.google.com/view/fahadkhans/home).
+I am a Master's student at the [Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI)](http://www.mbzuai.ac.ae) majoring in Machine Learning. At MBZUAI, I am affliated with the [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/). I am primarily advised by [Dr. Salman Khan](https://salman-h-khan.github.io/) and mentored by  [Dr. Muzammal Naseer](https://muzammal-naseer.netlify.app/). My secondary advisor is [Dr. Fahad Khan](https://sites.google.com/view/fahadkhans/home). I have also worked as a visiting student with [Professor Peter Wonka](https://peterwonka.net/) at King Abdullah University of Science and Technology (KAUST). 
 
 
 I received my undergraduate degree in Electronics and Communication Engineering with a minor in Computer Science from the [National Institute of Technology (NIT) Srinagar, India](https://nitsri.ac.in/). After graduation, I worked as a Machine Learning engineer at [Harman International (Samsung)](https://www.harman.com/India) before transitioning into academia in 2021 and joining MBZUAI as a Research Assistant under [Dr. Mohammad Yaqub](https://scholar.google.co.uk/citations?user=9dfn5GkAAAAJ&hl=en)
@@ -19,6 +19,7 @@ I am broadly interested in Label-efficient learning in multi-modal settings with
 - **Machine Learning:** meta-learning, incremental learning, transfer learning -->
 
 ## News
+- **[Oct. 2023]** Awarded **ICLR 2024 Travel Grant**.
 - **[Jan. 2024]** Our paper "LLM Blueprint: Enabling Text-to-Image Generation with Complex and Detailed Prompts" got accepted at **ICLR 2024**.
 - **[Oct. 2023]** Awarded **NeurIPS 2023 Travel Grant**.
 - **[Sept. 2023]** Our paper "Align your Prompts: Test-Time Prompting with Distribution Alignment for Zero-Shot Generalization" got accepted at **NeurIPS 2023**.
