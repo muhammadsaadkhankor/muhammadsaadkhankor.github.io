@@ -19,6 +19,8 @@ I am broadly interested in Label-efficient learning in multi-modal settings with
 - **Machine Learning:** meta-learning, incremental learning, transfer learning -->
 
 ## News
+- **[June. 2024]** Our paper "MedContext: Learning Contextual Cues for Efficient Volumetric Medical Segmentation" got accepted at **MICCAI 2024**.
+- **[June. 2024]** One paper accepted at **IEEE ICIP 2024**.
 - **[March. 2024]** Awarded **ICLR 2024 Travel Grant**.
 - **[Jan. 2024]** Our paper "LLM Blueprint: Enabling Text-to-Image Generation with Complex and Detailed Prompts" got accepted at **ICLR 2024**.
 - **[Oct. 2023]** Awarded **NeurIPS 2023 Travel Grant**.
