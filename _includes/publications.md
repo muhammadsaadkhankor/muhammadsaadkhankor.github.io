@@ -13,7 +13,7 @@
 
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://arxiv.org/abs/2402.17725">VANE-Bench: Video Anomaly Evaluation Benchmark for Conversational LMMs</a></div>
-    <div class="author"><strong>Hanan Gani</strong>, <strong>Rohit Bhardwaj</strong>, Muzammal Naseer, Fahad Khan and Salman Khan</div>
+    <div class="author"><strong>Hanan Gani*</strong>, Rohit Bhardwaj*, Muzammal Naseer, Fahad Khan and Salman Khan</div>
     <div class="periodical"><em>under review at NeurIPS 2024</em></div>
     <div class="links">
       <a href="https://arxiv.org/abs/2406.10326" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
