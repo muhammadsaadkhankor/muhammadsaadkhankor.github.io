@@ -29,12 +29,12 @@ I am broadly interested in Label-efficient learning in multi-modal settings with
 - **[Jan. 2023]** Our US patent about training Vision Transformers on small-scale datasets got approved for filing.
 - **[Sep. 2022]** I started  working with [Dr. Salman](https://salman-h-khan.github.io/) as a part of [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/).
 - **[Sep. 2022]** I joined [MBZUAI](http://www.mbzuai.ac.ae) as a grad student in Machine Learning with full scholarship.
-- **[Oct. 2022]** Our paper about training Vision Transformers on small-scale datasets got accepted to BMVC 2022.
+- **[Oct. 2022]** Our paper about training Vision Transformers on small-scale datasets got accepted to **BMVC 2022**.
 - **[Oct. 2021]** I joined [BiomedIA Lab](https://mbzuai-biomedia.com/biomedia/) at [MBZUAI](http://www.mbzuai.ac.ae) as a Research Assistant.
 - **[March. 2021]** I started as a part-time Predoctoral fellow at [Fatima Fellowship](https://www.fatimafellowship.com/) working under [Dr. Abubakr Abid](https://abidlabs.github.io/).
 - **[Oct. 2018]** I joined as a Machine Learning Engineer at [Harman International Inc. (Samsung)](https://www.harman.com/India).
-- **[July. 2018]** Our paper about supervised methodology for disguised facial recognition in wild got accepted to ACM ICRCV 2018.
-- **[August. 2018]** Our paper about disguised facial recognition got accepted to IEEE ICSIP 2018.
+- **[July. 2018]** Our paper about supervised methodology for disguised facial recognition in wild got accepted to **ACM ICRCV** 2018.
+- **[August. 2018]** Our paper about disguised facial recognition got accepted to **IEEE ICSIP** 2018.
 - **[June. 2018]** I completed my undergraduate studies in Electronics and Communications Engineering from the [National Institute of Technology (NIT) Srinagar](https://nitsri.ac.in/).
 - **[Dec. 2017]** I joined as a Research Intern in [Computational Intelligence and UAV Lab](https://sites.google.com/site/compintellab/) at the [Indian Institute of Science, Bangalore](https://iisc.ac.in/)
 
