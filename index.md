@@ -13,7 +13,7 @@ I received my undergraduate degree in Electronics and Communication Engineering 
 
 ## Research Interests
 
-I am broadly interested in Label-efficient learning in multi-modal settings with applications to problems in the domains of 1. adapting multi-modal models to novel domains, 2. generative text-to-image diffusion models and 3. using generative models for zero-shot discriminative tasks. 
+I am broadly interested in Multi-modal Generative and Discriminative learning in the realm of Label-efficiency with applications to problems in the domains of 1. Test-time out-of-distribution generalization, 2. Generative text-to-image diffusion models. 3. World-centric evaluation of Multi-modal models and 4. Self-supervised learning. 
 
 <!-- - **Computer Vision:** image recognition, image generation, video captioning
 - **Machine Learning:** meta-learning, incremental learning, transfer learning -->
