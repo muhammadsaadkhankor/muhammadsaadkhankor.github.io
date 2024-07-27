@@ -60,7 +60,7 @@
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://arxiv.org/abs/2402.17725">MedContext: Learning Contextual Cues for Efficient Volumetric Medical Segmentation</a></div>
     <div class="author"><strong>Hanan Gani</strong>, Muzammal Naseer, Fahad Khan and Salman Khan</div>
-    <div class="periodical"><em>MICCAI 2024</em></div>
+    <div class="periodical"><em>27th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2024</em></div>
     <div class="links">
       <a href="https://arxiv.org/pdf/2402.17725" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/hananshafi/medcontext" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
