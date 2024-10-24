@@ -26,7 +26,7 @@ I am broadly interested in Multi-modal Generative and Discriminative learning in
 - **[Oct. 2023]** Awarded **NeurIPS 2023 Travel Grant**.
 - **[Sept. 2023]** Our paper "Align your Prompts: Test-Time Prompting with Distribution Alignment for Zero-Shot Generalization" got accepted at **NeurIPS 2023**.
 - **[June. 2023]** Joined Visual Computing Center (VCC) at [KAUST](https://cemse.kaust.edu.sa/vcc) as a Visiting Student under [Professor Peter Wonka](https://peterwonka.net/).
-- **[Jan. 2023]** Our US patent about training Vision Transformers on small-scale datasets got approved for filing.
+- **[Jan. 2023]** Our **US patent** about training Vision Transformers on small-scale datasets got approved for filing.
   
 <!--- - **[Sep. 2022]** I started  working with [Dr. Salman](https://salman-h-khan.github.io/) as a part of [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/).
 - **[Sep. 2022]** I joined [MBZUAI](http://www.mbzuai.ac.ae) as a grad student in Machine Learning with full scholarship.
