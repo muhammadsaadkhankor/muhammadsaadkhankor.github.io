@@ -19,6 +19,7 @@ I am broadly interested in Multi-modal Generative and Discriminative learning in
 - **Machine Learning:** meta-learning, incremental learning, transfer learning -->
 
 ## News
+- **[Oct. 2024]** One paper accepted at **IEEE/CVF WACV 2025**.
 - **[June. 2024]** Our paper "MedContext: Learning Contextual Cues for Efficient Volumetric Medical Segmentation" got accepted at **MICCAI 2024**.
 - **[June. 2024]** One paper accepted at **IEEE ICIP 2024**.
 - **[March. 2024]** Awarded **ICLR 2024 Travel Grant**.
