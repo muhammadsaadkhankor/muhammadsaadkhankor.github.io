@@ -1,4 +1,4 @@
-## Services
+## Academic Services
 
 <h4 style="margin:0 10px 0;">Conference Reviewing</h4>
 
@@ -6,8 +6,7 @@
   <li><autocolor>Served as a Reviewer at ICLR’25, 24 & 23, AAAI’24, NeurIPS’24 & 23, ECCV’24, CVPR’24, ICML’24, WACV’24, ICCV’23</autocolor></li>
 </ul>
 
-<h4 style="margin:0 10px 0;">Academic Services</h4>
-Teaching Assistant
+<h4 style="margin:0 10px 0;">Teaching Assistant</h4>
 <ul style="margin:0 0 20px;">
   <li><autocolor>Deep Learning (AI702) course - Spring 2024</autocolor></li>
   <li><autocolor>Vision-Language Foundational Models (CV806) course - Spring 2024</autocolor></li>
@@ -15,6 +14,10 @@ Teaching Assistant
   <li><autocolor>Machine Learning (ML701) course - Fall 2023</autocolor></li>
 </ul>
 
+<h4 style="margin:0 10px 0;">Conference Volunteering</h4>
+<ul style="margin:0 0 20px;">
+  <li><autocolor>Program Volunteer -  IEEE International Conference on Image Processing (ICIP), Abu Dhabi</autocolor></li>
+</ul>
 
 ## Awards and Merits
 
