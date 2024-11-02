@@ -8,8 +8,8 @@
 
 <h4 style="margin:0 10px 0;">Teaching Assistant</h4>
 <ul style="margin:0 0 20px;">
+  <li>Vision-Language Foundational Models (CV806) course - Spring 2024 with <a href="https://www.di.ens.fr/~laptev/"><autocolor>Prof. Ivan Laptev</autocolor></a></li>
   <li><autocolor>Deep Learning (AI702) course - Spring 2024</autocolor></li>
-  <li><autocolor>Vision-Language Foundational Models (CV806) course - Spring 2024</autocolor></li>
   <li><autocolor>Statistical Inference and Causality (ML703) course - Fall 2023</autocolor></li>
   <li><autocolor>Machine Learning (ML701) course - Fall 2023</autocolor></li>
 </ul>
