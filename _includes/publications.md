@@ -253,7 +253,6 @@
 <div class="patents">
 <ol class="bibliography">
 
-  
 <li>
 <div class="pub-row">
 
