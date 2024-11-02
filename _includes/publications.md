@@ -268,7 +268,6 @@
     <div class="periodical"><em>US Patent</em></div>
     <div class="links">
       <a href="https://patents.google.com/patent/US20240212330A1/en" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      <strong><i style="color:#e74d3c">Arxiv Paper</i></strong>
     </div>
   </div>
 </div>
