@@ -8,10 +8,10 @@
 
 <h4 style="margin:0 10px 0;">Teaching Assistant</h4>
 <ul style="margin:0 0 20px;">
-  <li>Vision-Language Foundational Models (CV806) course - Spring 2024 with <a href="https://www.di.ens.fr/~laptev/" style="color: blue;"><autocolor>Prof. Ivan Laptev</autocolor></a></li>
-  <li>Deep Learning (AI702) course - Spring 2024 with <a href="https://m-haris-khan.com/" style="color: blue;"><autocolor>Prof. Haris Khan</autocolor></a></li>
-  <li>Statistical Inference and Causality (ML703) course - Fall 2023 with <a href="https://www.andrew.cmu.edu/user/kunz1/index.html" style="color: blue;"><autocolor>Prof. Kun Zhang</autocolor></a></li>
-  <li>Machine Learning (ML701) course - Fall 2023 with <a href="https://sites.google.com/view/samuelhorvath" style="color: blue;"><autocolor>Prof. Samuel Horvath</autocolor></a></li>
+  <li>Vision-Language Foundational Models (CV806) course - Spring 2024 with <a href="https://www.di.ens.fr/~laptev/" style="color: blue;">Prof. Ivan Laptev</a></li>
+  <li>Deep Learning (AI702) course - Spring 2024 with <a href="https://m-haris-khan.com/" style="color: blue;">Prof. Haris Khan</a></li>
+  <li>Statistical Inference and Causality (ML703) course - Fall 2023 with <a href="https://www.andrew.cmu.edu/user/kunz1/index.html" style="color: blue;">Prof. Kun Zhang</a></li>
+  <li>Machine Learning (ML701) course - Fall 2023 with <a href="https://sites.google.com/view/samuelhorvath" style="color: blue;">Prof. Samuel Horvath</a></li>
 </ul>
 
 <h4 style="margin:0 10px 0;">Conference Volunteering</h4>
