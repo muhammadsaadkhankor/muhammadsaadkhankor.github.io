@@ -265,7 +265,7 @@
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://arxiv.org/abs/1809.02875">System and method of training vision transformer on small-scale datasets</a></div>
     <div class="author"><strong>Hanan Gani</strong>, Muzammal Naseer and Mohammad Yaqub</div>
-    <div class="periodical"><em>US Patent</em></div>
+    <div class="periodical"><em>US Patent, 2024</em></div>
     <div class="links">
       <a href="https://patents.google.com/patent/US20240212330A1/en" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
     </div>
