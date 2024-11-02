@@ -3,7 +3,7 @@
 <h4 style="margin:0 10px 0;">Conference Reviewing</h4>
 
 <ul style="margin:0 0 5px;">
-  <li><autocolor>Served as a Reviewer at ICLR’25, 24 & 23, AAAI’24, WACV’24, ECCV’24, NeurIPS’24 & 23, CVPR’24, ICML’24, ICCV’23</autocolor></li>
+  <li><autocolor>Served as a Reviewer at ICLR’25, 24 & 23, AAAI’24, NeurIPS’24 & 23, ECCV’24, CVPR’24, ICML’24, WACV’24, ICCV’23</autocolor></li>
 </ul>
 
 <h4 style="margin:0 10px 0;">Academic Services</h4>
