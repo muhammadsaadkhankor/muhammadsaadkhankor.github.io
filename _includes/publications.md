@@ -248,9 +248,9 @@
 
 
 
-<h2 id="patents" style="margin: 2px 0px -15px;">Patents</h2>
+<h2 id="publications" style="margin: 2px 0px -15px;">Patents</h2>
 
-<div class="patents">
+<div class="publications">
 <ol class="bibliography">
 
 <li>
