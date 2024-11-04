@@ -258,7 +258,7 @@
           <img src="assets/files/patent_github.png" class="teaser img-fluid z-depth-1">
           <abbr class="badge">US-Patent</abbr>
         </div>
-        <div class="col-sm-9">
+        <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
           <div class="title">
             <a href="https://arxiv.org/abs/1809.02875">System and method of training vision transformer on small-scale datasets</a>
           </div>
