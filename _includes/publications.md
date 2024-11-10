@@ -7,6 +7,29 @@
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/logo-videoglamm.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">Under Review</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="http://arxiv.org/abs/2411.04923">VideoGLaMM: A Large Multimodal Model for Pixel-Level Visual Grounding in Videos</a></div>
+    <div class="author">Shehan Munasinghe, <strong>Hanan Gani</strong>, Wenqi Zhu, Jiale Cao, Eric Xing, Fahad Khan and Salman Khan</div>
+    <div class="periodical"><em>Under review</em></div>
+    <div class="links">
+      <a href="http://arxiv.org/abs/2411.04923" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://mbzuai-oryx.github.io/VideoGLaMM/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page</a>
+      <strong><i style="color:#e74d3c"></i></strong>
+    </div>
+  </div>
+</div>
+</li>
+
+<br>
+
+<li>
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/agriclip_coling.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">Under Review</abbr>
   </div>
