@@ -19,6 +19,7 @@ I am interested in addressing the challenges faced by **multi-modal AI systems**
 - **Machine Learning:** meta-learning, incremental learning, transfer learning -->
 
 ## News
+- **[Nov. 2024]** One paper accepted at **COLING 2025**.
 - **[Oct. 2024]** One paper accepted at **IEEE/CVF WACV 2025**.
 - **[June. 2024]** Our paper "MedContext: Learning Contextual Cues for Efficient Volumetric Medical Segmentation" got accepted at **MICCAI 2024**.
 - **[June. 2024]** One paper accepted at **IEEE ICIP 2024**.
