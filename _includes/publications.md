@@ -30,17 +30,17 @@
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/agriclip_coling.png" class="teaser img-fluid z-depth-1">
+    <img src="assets/img/Main_VANE-Bench-Flow_v7.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">Under Review</abbr>
   </div>
 
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/abs/2410.01407">AgriCLIP: Adapting CLIP for Agriculture and Livestock via Domain-Specialized Cross-Model Alignment</a></div>
-    <div class="author">Umair Nawaz, Muhammad Awais, <strong>Hanan Gani</strong>, Muzammal Naseer, Fahad Khan, Salman Khan, Rao Muhammad Anwer</div>
-    <div class="periodical"><em>Under review at COLING 2025</em></div>
+    <div class="title"><a href="https://arxiv.org/abs/2402.17725">VANE-Bench: Video Anomaly Evaluation Benchmark for Conversational LMMs</a></div>
+    <div class="author"><strong>Hanan Gani*</strong>, Rohit Bhardwaj*, Muzammal Naseer, Fahad Khan and Salman Khan</div>
+    <div class="periodical"><em>under review at NAACL 2025</em></div>
     <div class="links">
-      <a href="https://arxiv.org/abs/2410.01407" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      <a href="https://github.com/umair1221/AgriCLIP/tree/main" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      <a href="https://arxiv.org/abs/2406.10326" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://github.com/rohit901/VANE-Bench" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       <strong><i style="color:#e74d3c"></i></strong>
     </div>
   </div>
@@ -53,17 +53,17 @@
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/Main_VANE-Bench-Flow_v7.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Under Review</abbr>
+    <img src="assets/img/agriclip_coling.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">COLING 2025</abbr>
   </div>
 
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/abs/2402.17725">VANE-Bench: Video Anomaly Evaluation Benchmark for Conversational LMMs</a></div>
-    <div class="author"><strong>Hanan Gani*</strong>, Rohit Bhardwaj*, Muzammal Naseer, Fahad Khan and Salman Khan</div>
-    <div class="periodical"><em>under review at NAACL 2025</em></div>
+    <div class="title"><a href="https://arxiv.org/abs/2410.01407">AgriCLIP: Adapting CLIP for Agriculture and Livestock via Domain-Specialized Cross-Model Alignment</a></div>
+    <div class="author">Umair Nawaz, Muhammad Awais, <strong>Hanan Gani</strong>, Muzammal Naseer, Fahad Khan, Salman Khan, Rao Muhammad Anwer</div>
+    <div class="periodical"><em>COLING 2025 (Accepted)</em></div>
     <div class="links">
-      <a href="https://arxiv.org/abs/2406.10326" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      <a href="https://github.com/rohit901/VANE-Bench" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      <a href="https://arxiv.org/abs/2410.01407" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://github.com/umair1221/AgriCLIP/tree/main" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       <strong><i style="color:#e74d3c"></i></strong>
     </div>
   </div>
