@@ -16,11 +16,11 @@ I received my undergraduate degree in Electronics and Communication Engineering 
         <p>MBZUAI<br>(2021-Present)</p>
     </div>
     <div style="text-align: center;">
-        <img src="assets/img/kaust_logo.png" alt="KAUST" width="100">
+        <img src="assets/img/kaust_logo.png" alt="KAUST" width="120">
         <p>KAUST<br>(2023)</p>
     </div>
     <div style="text-align: center;">
-        <img src="assets/img/Samsung_Logo.png" alt="Samsung" width="100">
+        <img src="assets/img/Samsung_Logo.png" alt="Samsung" width="120">
         <p>Samsung<br>(2018-2021)</p>
     </div>
 </div>
