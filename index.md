@@ -10,15 +10,9 @@ I am currently a Research Associate at [Mohamed Bin Zayed University of Artifici
 I received my undergraduate degree in Electronics and Communication Engineering with a minor in Computer Science from the [National Institute of Technology (NIT) Srinagar, India](https://nitsri.ac.in/). After graduation, I worked as a Machine Learning engineer at Harman Research Division of [Samsung](https://www.harman.com/India) before transitioning into academia in 2021 and joining MBZUAI as a Research Assistant under [Dr. Mohammad Yaqub](https://scholar.google.co.uk/citations?user=9dfn5GkAAAAJ&hl=en)
 
 
-
-## Research Interests
-
-I am interested in addressing the challenges faced by **multi-modal AI systems** across **discriminative**, **generative**, and **perceptual understanding** tasks, particularly when confronted with **Out-Of-Distribution (OOD)** scenarios.
-
-## Affiliations
 <div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
     <div style="text-align: center;">
-        <img src="assets/img/mbzuai_logo.png" alt="MBZUAI" width="100">
+        <img src="assets/img/mbzuai_logo.png" alt="MBZUAI" width="200">
         <p>MBZUAI<br>(2021-Present)</p>
     </div>
     <div style="text-align: center;">
@@ -30,6 +24,11 @@ I am interested in addressing the challenges faced by **multi-modal AI systems**
         <p>Samsung<br>(2018-2021)</p>
     </div>
 </div>
+
+
+## Research Interests
+
+I am interested in addressing the challenges faced by **multi-modal AI systems** across **discriminative**, **generative**, and **perceptual understanding** tasks, particularly when confronted with **Out-Of-Distribution (OOD)** scenarios.
 
 ## News
 - **[Jan. 2025]** Our paper titled "VANE-Bench: Video Anomaly Evaluation Benchmark for Conversational LMMs" got accepted at **NAACL 2025**.
