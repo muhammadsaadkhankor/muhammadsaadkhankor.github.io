@@ -15,8 +15,21 @@ I received my undergraduate degree in Electronics and Communication Engineering 
 
 I am interested in addressing the challenges faced by **multi-modal AI systems** across **discriminative**, **generative**, and **perceptual understanding** tasks, particularly when confronted with **Out-Of-Distribution (OOD)** scenarios.
 
-<!-- - **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning -->
+## Affiliations
+<div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+    <div style="text-align: center;">
+        <img src="https://github.com/hananshafi/hananshafi.github.io/tree/main/assets/img/mbzuai_logo.png" alt="MBZUAI" width="50">
+        <p>MBZUAI<br>(2021-Present)</p>
+    </div>
+    <div style="text-align: center;">
+        <img src="https://github.com/hananshafi/hananshafi.github.io/tree/main/assets/img/kaust_logo.png" alt="KAUST" width="50">
+        <p>KAUST<br>(2023)</p>
+    </div>
+    <div style="text-align: center;">
+        <img src="https://github.com/hananshafi/hananshafi.github.io/tree/main/assets/img/Samsung_Logo.png" alt="Samsung" width="50">
+        <p>Samsung<br>(2018-2021)</p>
+    </div>
+</div>
 
 ## News
 - **[Jan. 2025]** Our paper titled "VANE-Bench: Video Anomaly Evaluation Benchmark for Conversational LMMs" got accepted at **NAACL 2025**.
