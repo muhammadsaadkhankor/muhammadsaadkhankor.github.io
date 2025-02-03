@@ -18,15 +18,15 @@ I am interested in addressing the challenges faced by **multi-modal AI systems**
 ## Affiliations
 <div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
     <div style="text-align: center;">
-        <img src="assets/img/mbzuai_logo.png" alt="MBZUAI" width="50">
+        <img src="assets/img/mbzuai_logo.png" alt="MBZUAI" width="100">
         <p>MBZUAI<br>(2021-Present)</p>
     </div>
     <div style="text-align: center;">
-        <img src="assets/img/kaust_logo.png" alt="KAUST" width="50">
+        <img src="assets/img/kaust_logo.png" alt="KAUST" width="100">
         <p>KAUST<br>(2023)</p>
     </div>
     <div style="text-align: center;">
-        <img src="assets/img/Samsung_Logo.png" alt="Samsung" width="50">
+        <img src="assets/img/Samsung_Logo.png" alt="Samsung" width="100">
         <p>Samsung<br>(2018-2021)</p>
     </div>
 </div>
