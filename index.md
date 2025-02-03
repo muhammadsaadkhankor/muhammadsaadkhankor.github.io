@@ -26,7 +26,7 @@ I am interested in addressing the challenges faced by **multi-modal AI systems**
         <p>KAUST<br>(2023)</p>
     </div>
     <div style="text-align: center;">
-        <img src="https://github.com/hananshafi/hananshafi.github.io/tree/main/assets/img/Samsung_Logo.png" alt="Samsung" width="50">
+        <img src="assets/img/Samsung_Logo.png" alt="Samsung" width="50">
         <p>Samsung<br>(2018-2021)</p>
     </div>
 </div>
