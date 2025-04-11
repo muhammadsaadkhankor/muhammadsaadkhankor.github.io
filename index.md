@@ -31,6 +31,7 @@ I received my undergraduate degree in Electronics and Communication Engineering 
 I am interested in addressing the challenges faced by **multi-modal AI systems** across **discriminative**, **generative**, and **perceptual understanding** tasks, particularly when confronted with **Out-Of-Distribution (OOD)** scenarios.
 
 ## News
+- **[March. 2025]** Our paper titled "VideoGLaMM: A Large Multimodal Model for Pixel-Level Visual Grounding in Videos" got accepted at **CVPR 2025**.
 - **[Jan. 2025]** Our paper titled "VANE-Bench: Video Anomaly Evaluation Benchmark for Conversational LMMs" got accepted at **NAACL 2025**.
 - **[Nov. 2024]** One paper accepted at **COLING 2025**.
 - **[Oct. 2024]** One paper accepted at **IEEE/CVF WACV 2025**.
