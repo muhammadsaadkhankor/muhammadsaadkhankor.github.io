@@ -22,7 +22,7 @@
 <h4 style="margin:0 10px 0;">Invited Talks</h4>
 <ul style="margin:0 0 20px;">
   <li><autocolor>(May 2025) Delivered a talk on “Latest Trends in AI” at CS department, Abu Dhabi University</autocolor></li>
-  <li><autocolor>• (June 2024) Presented a talk on “Generative AI” to undergrad CS students at the University of Jordon</autocolor></li>
+  <li><autocolor>(June 2024) Presented a talk on “Generative AI” to undergrad CS students at the University of Jordon</autocolor></li>
 </ul>
 
 ## Awards and Merits
