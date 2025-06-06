@@ -3,6 +3,81 @@
 <div class="publications">
 <ol class="bibliography">
 
+
+<li>
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/logo-videoglamm.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">Under Review</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/abs/2506.05336">VideoMolmo: Spatio-Temporal Grounding meets Pointing</a></div>
+    <div class="author">Ghazi Shazan Ahmad*, Ahmed Heakl*, <strong>Hanan Gani</strong>, Abdelrahman Shaker, Zhiqiang Shen, Ranjay Krishna, Fahad Shahbaz Khan, Salman Khan</div>
+    <div class="periodical"><em>Under Review</em></div>
+    <div class="links">
+      <a href="http://arxiv.org/pdf/2506.05336" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://mbzuai-oryx.github.io/VideoMolmo/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page</a>
+      <a href="https://github.com/mbzuai-oryx/VideoMolmo" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      <strong><i style="color:#e74d3c"></i></strong>
+    </div>
+  </div>
+</div>
+</li>
+
+<br>
+
+
+<li>
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/logo-videoglamm.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">Under Review</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/abs/2505.24876">Agent-X: Evaluating Deep Multimodal Reasoning in Vision-Centric Agentic Tasks</a></div>
+    <div class="author">Tajamul Ashraf*, Amal Saqib*, <strong>Hanan Gani</strong>, Muhra AlMahri, Yuhao Li, Noor Ahsan, Umair Nawaz, Jean Lahoud, Hisham Cholakkal, Mubarak Shah, Philip Torr, Fahad Shahbaz Khan, Rao Muhammad Anwer, Salman Khan</div>
+    <div class="periodical"><em>Under Review</em></div>
+    <div class="links">
+      <a href="http://arxiv.org/pdf/2505.24876" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://huggingface.co/datasets/Tajamul21/Agent-X" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Dataset</a>
+      <a href="https://github.com/mbzuai-oryx/Agent-X" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      <strong><i style="color:#e74d3c"></i></strong>
+    </div>
+  </div>
+</div>
+</li>
+
+<br>
+
+
+<li>
+<div class="pub-row">
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/logo-videoglamm.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">under Review</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/abs/2503.23219">Aurelia: Test-time Reasoning Distillation in Audio-Visual LLMs</a></div>
+    <div class="author">Sanjoy Chowdhury*, <strong>Hanan Gani*</strong>, Nishit Anand, Sayan Nag, Ruohan Gao, Mohamed Elhoseiny, Salman Khan and Dinesh Manocha</div>
+    <div class="periodical"><em>Under Review</em></div>
+    <div class="links">
+      <a href="https://arxiv.org/pdf/2503.23219" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+<!--       <a href="https://mbzuai-oryx.github.io/VideoGLaMM/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page</a> -->
+      <a href="https://github.com/schowdhury671/aurelia" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      <strong><i style="color:#e74d3c"></i></strong>
+    </div>
+  </div>
+</div>
+</li>
+
+<br>
+
 <li>
 <div class="pub-row">
 
@@ -13,11 +88,12 @@
 
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="http://arxiv.org/abs/2411.04923">VideoGLaMM: A Large Multimodal Model for Pixel-Level Visual Grounding in Videos</a></div>
-    <div class="author">Shehan Munasinghe, <strong>Hanan Gani</strong>, Wenqi Zhu, Jiale Cao, Eric Xing, Fahad Khan and Salman Khan</div>
-    <div class="periodical"><em>CVPR 2025 (Accepted)</em></div>
+    <div class="author">Shehan Munasinghe*, <strong>Hanan Gani*</strong>, Wenqi Zhu, Jiale Cao, Eric Xing, Fahad Khan and Salman Khan</div>
+    <div class="periodical"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2025</em></div>
     <div class="links">
       <a href="http://arxiv.org/abs/2411.04923" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://mbzuai-oryx.github.io/VideoGLaMM/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page</a>
+      <a href="https://github.com/mbzuai-oryx/VideoGLaMM" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       <strong><i style="color:#e74d3c"></i></strong>
     </div>
   </div>
@@ -37,9 +113,10 @@
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://arxiv.org/abs/2402.17725">VANE-Bench: Video Anomaly Evaluation Benchmark for Conversational LMMs</a></div>
     <div class="author"><strong>Hanan Gani*</strong>, Rohit Bhardwaj*, Muzammal Naseer, Fahad Khan and Salman Khan</div>
-    <div class="periodical"><em>NAACL 2025 (Accepted)</em></div>
+    <div class="periodical"><em>Findings of the Association for Computational Linguistics (NAACL) 2025</em></div>
     <div class="links">
       <a href="https://arxiv.org/abs/2406.10326" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+            <a href="https://hananshafi.github.io/vane-benchmark/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page</a>
       <a href="https://github.com/rohit901/VANE-Bench" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       <strong><i style="color:#e74d3c"></i></strong>
     </div>
@@ -60,7 +137,7 @@
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://arxiv.org/abs/2410.01407">AgriCLIP: Adapting CLIP for Agriculture and Livestock via Domain-Specialized Cross-Model Alignment</a></div>
     <div class="author">Umair Nawaz, Muhammad Awais, <strong>Hanan Gani</strong>, Muzammal Naseer, Fahad Khan, Salman Khan, Rao Muhammad Anwer</div>
-    <div class="periodical"><em>COLING 2025 (Accepted)</em></div>
+    <div class="periodical"><em>International Conference on Computational Linguistics (COLING) 2025</em></div>
     <div class="links">
       <a href="https://arxiv.org/abs/2410.01407" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/umair1221/AgriCLIP/tree/main" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
