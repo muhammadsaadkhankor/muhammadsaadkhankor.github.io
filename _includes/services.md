@@ -19,12 +19,18 @@
   <li><autocolor>Program Volunteer -  IEEE International Conference on Image Processing (ICIP), Abu Dhabi</autocolor></li>
 </ul>
 
+<h4 style="margin:0 10px 0;">Invited Talks</h4>
+<ul style="margin:0 0 20px;">
+  <li><autocolor>(May 2025) Delivered a talk on “Latest Trends in AI” at CS department, Abu Dhabi University</autocolor></li>
+  <li><autocolor>• (June 2024) Presented a talk on “Generative AI” to undergrad CS students at the University of Jordon</autocolor></li>
+</ul>
+
 ## Awards and Merits
 
 <!-- <h4 style="margin:0 10px 0;">Work Experience</h4> -->
 
 <ul style="margin:0 0 5px;">
-  
+  <li><a href="https://nips.cc/"><autocolor>Awarded CVPR 2025 Travel Grant.</autocolor></a></li>
   <li><a href="https://nips.cc/"><autocolor>Awarded ICLR 2024 Travel Grant.</autocolor></a></li>
   <li><a href="https://nips.cc/"><autocolor>Awarded NeurIPS 2023 Travel Grant.</autocolor></a></li>
   <li><a href="http://www.mbzuai.ac.ae"><autocolor>Full scholarship to study Masters in Machine Learning at the Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI).</autocolor></a></li>
