@@ -231,7 +231,7 @@
 
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://arxiv.org/abs/2311.01459">Align your Prompts: Test-time Prompting with Distribution Alignment for Zero-shot Generalization</a></div>
-    <div class="author">Jameel Hassan *, <strong>Hanan Gani *</strong>, Noor Hussein, Uzair Khattak, Muzammal Naseer, Salman Khan, Fahad Khan</div>
+    <div class="author">Jameel Hassan *, <strong>Hanan Gani *</strong>, Noor Hussein, Uzair Khattak, Muzammal Naseer, Fahad Khan, Salman Khan</div>
     <div class="periodical"><em>37th Advances in Neural Information Processing Systems (NeurIPS), 2023</em></div>
     <div class="links">
       <a href="https://arxiv.org/abs/2311.01459" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
