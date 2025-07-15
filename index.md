@@ -23,6 +23,10 @@ I received my undergraduate degree in Electronics and Communication Engineering 
         <img src="assets/img/Samsung_Logo.png" alt="Samsung" width="120">
         <p>Samsung<br>(2018-2021)</p>
     </div>
+    <div style="text-align: center;">
+        <img src="assets/img/nit_logo.png" alt="nit" width="120">
+        <p>Samsung<br>(2014-2018)</p>
+    </div>
 </div>
 
 
