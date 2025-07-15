@@ -25,7 +25,7 @@ I received my undergraduate degree in Electronics and Communication Engineering 
     </div>
     <div style="text-align: center;">
         <img src="assets/img/nit_logo.png" alt="nit" width="250">
-       <p style="margin-top: 8px;">NIT Srinagar<br>(2014-2018)</p>
+       <p style="margin-top: 3px;">NIT Srinagar<br>(2014-2018)</p>
     </div>
 </div>
 
