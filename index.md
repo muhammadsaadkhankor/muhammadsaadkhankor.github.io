@@ -12,7 +12,7 @@ I received my undergraduate degree in Electronics and Communication Engineering 
 
 <div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
     <div style="text-align: center;">
-        <img src="assets/img/ucsd_logo.png" alt="MBZUAI" width="100">
+        <img src="assets/img/ucsd_logo.png" alt="MBZUAI" width="90">
         <p>University of California, San Diego<br>(2025-Present)</p>
     </div>
     <div style="text-align: center;">
