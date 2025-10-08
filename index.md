@@ -4,11 +4,21 @@ layout: homepage
 
 ## About Me
 
+## About Me
+
+I am a **Ph.D. student in Computer Science at the University of California, San Diego (UCSD)**, where my research focuses on the intersection of *Multi-modal Learning, Generative AI and Embodied Intelligence*. I am also a **Researcher** at the Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI).
+
+Before joining UCSD, I earned my **Master’s degree in Machine Learning** at MBZUAI. At MBZUAI, I was part of the [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/), advised by [Dr. Salman Khan](https://salman-h-khan.github.io/) and co-advised by [Dr. Fahad Khan](https://sites.google.com/view/fahadkhans/home). I was also fortunate to be advised and mentored by [Dr. Muzammal Naseer](https://muzammal-naseer.netlify.app/). I also spent time as a **visiting student** with [Prof. Peter Wonka](https://peterwonka.net/) at **KAUST**.
+
+<!---
+I received my undergraduate degree in **Electronics and Communication Engineering** with a **minor in Computer Science** from the **National Institute of Technology (NIT) Srinagar**. Before transitioning to academia, I worked as a **Machine Learning Engineer** at the Harman Research Division of **Samsung**.
+
+
 I am currently a Research Associate at [Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI)](http://www.mbzuai.ac.ae) and have recently obtained my Masters degree in machine learning from the same institution. At MBZUAI, I am affliated with the [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/) where I am primarily advised by [Dr. Salman Khan](https://salman-h-khan.github.io/) and have a close collaboration with [Dr. Muzammal Naseer](https://muzammal-naseer.netlify.app/). My secondary advisor is [Dr. Fahad Khan](https://sites.google.com/view/fahadkhans/home). I have also worked as a visiting student with [Professor Peter Wonka](https://peterwonka.net/) at King Abdullah University of Science and Technology (KAUST). 
 
 
 I received my undergraduate degree in Electronics and Communication Engineering with a minor in Computer Science from the [National Institute of Technology (NIT) Srinagar, India](https://nitsri.ac.in/). After graduation, I worked as a Machine Learning engineer at Harman Research Division of [Samsung](https://www.harman.com/India) before transitioning into academia in 2021 and joining MBZUAI as a Research Assistant under [Dr. Mohammad Yaqub](https://scholar.google.co.uk/citations?user=9dfn5GkAAAAJ&hl=en)
-
+-->
 
 <div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
     <div style="text-align: center;">
