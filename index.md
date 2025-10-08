@@ -44,9 +44,10 @@ I received my undergraduate degree in Electronics and Communication Engineering 
 
 ## Research Interests
 
-I am interested in addressing the challenges faced by **multi-modal AI systems** across **discriminative**, **generative**, and **perceptual understanding** tasks, particularly when confronted with **Out-Of-Distribution (OOD)** scenarios.
+My research focuses on developing **multimodal AI systems** that seamlessly integrate **reasoning**, **generative modeling**, and **embodied intelligence**.
 
 ## News
+- **[June. 2025]** Embarked my PhD in Computer Science at the **University of California, San Diego (UCSD)**.
 - **[June. 2025]** Our paper titled "Aurelia: Test-time Reasoning Distillation in Audio-Visual LLMs" is accepted at **ICCV 2025**.
 - **[March. 2025]** Our paper titled "VideoGLaMM: A Large Multimodal Model for Pixel-Level Visual Grounding in Videos" got accepted at **CVPR 2025**.
 - **[Jan. 2025]** Our paper titled "VANE-Bench: Video Anomaly Evaluation Benchmark for Conversational LMMs" got accepted at **NAACL 2025**.
