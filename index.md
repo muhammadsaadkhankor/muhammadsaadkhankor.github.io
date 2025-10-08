@@ -4,9 +4,9 @@ layout: homepage
 
 ## About Me
 
-I am a **Ph.D. student in Computer Science at the University of California, San Diego (UCSD)**, where my research focuses on the intersection of *Multi-modal Learning, Generative AI and Embodied Intelligence*. I am also a **Researcher** at the Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI).
+I am a **Ph.D. student in Computer Science at the University of California, San Diego (UCSD)** advised by [Prof. Manmohan Chandraker](https://cseweb.ucsd.edu/~mkchandraker/), where my research focuses on the intersection of Multi-modal Learning, Generative AI and Embodied Intelligence. I also hold a research appointment at the Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI).
 
-Before joining UCSD, I earned my **Master’s degree in Machine Learning** at MBZUAI. At MBZUAI, I was part of the [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/), advised by [Dr. Salman Khan](https://salman-h-khan.github.io/) and co-advised by [Dr. Fahad Khan](https://sites.google.com/view/fahadkhans/home). I was also fortunate to be advised and mentored by [Dr. Muzammal Naseer](https://muzammal-naseer.netlify.app/). I also spent time as a **visiting student** with [Prof. Peter Wonka](https://peterwonka.net/) at **KAUST**.
+Before joining UCSD, I earned my **Master’s degree in Machine Learning** at MBZUAI where I was part of the [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/), advised by [Prof. Salman Khan](https://salman-h-khan.github.io/) and co-advised by [Prof. Fahad Khan](https://sites.google.com/view/fahadkhans/home). I was also fortunate to be advised and mentored by [Prof. Muzammal Naseer](https://muzammal-naseer.netlify.app/). I also spent time as a **visiting student** with [Prof. Peter Wonka](https://peterwonka.net/) at **KAUST**.
 
 <!---
 I received my undergraduate degree in **Electronics and Communication Engineering** with a **minor in Computer Science** from the **National Institute of Technology (NIT) Srinagar**. Before transitioning to academia, I worked as a **Machine Learning Engineer** at the Harman Research Division of **Samsung**.
