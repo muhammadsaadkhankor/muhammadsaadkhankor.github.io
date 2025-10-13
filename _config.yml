@@ -20,7 +20,7 @@ twitter: https://mobile.twitter.com/hanan_shafi29
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: https://github.com/hananshafi/hananshafi.github.io/blob/main/assets/img/ucsd_logo.png
+avatar: ./assets/img/my_pic.jpg
 favicon: ./assets/img/ucsd_logo.png
 favicon_dark: ./assets/img/favicon-dark.png
 
