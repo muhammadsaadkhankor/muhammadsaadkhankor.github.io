@@ -30,8 +30,9 @@
 <!-- <h4 style="margin:0 10px 0;">Work Experience</h4> -->
 
 <ul style="margin:0 0 5px;">
-  <li><a href="https://nips.cc/"><autocolor>Awarded CVPR 2025 Travel Grant.</autocolor></a></li>
-  <li><a href="https://nips.cc/"><autocolor>Awarded ICLR 2024 Travel Grant.</autocolor></a></li>
+  <li><a href="https://nips.cc/"><autocolor>Recipient of Powell Fellowship and Jacobs Engineering Fellowship at UCSD</autocolor></a></li>
+  <li><a href="https://cvpr.thecvf.com/Conferences/2025"><autocolor>Awarded CVPR 2025 Travel Grant.</autocolor></a></li>
+  <li><a href="https://iclr.cc/Conferences/2024"><autocolor>Awarded ICLR 2024 Travel Grant.</autocolor></a></li>
   <li><a href="https://nips.cc/"><autocolor>Awarded NeurIPS 2023 Travel Grant.</autocolor></a></li>
   <li><a href="http://www.mbzuai.ac.ae"><autocolor>Full scholarship to study Masters in Machine Learning at the Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI).</autocolor></a></li>
   <li><a href="https://www.fatimafellowship.com/"><autocolor>Selected as Predoctoral fellow at Fatima Fellowship under Dr. Abubakr Abid.</autocolor></a></li>
