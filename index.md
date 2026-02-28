@@ -47,3 +47,19 @@ Real-time violence detection system optimized for edge devices. Collaboration be
 
 ### EmotionVis
 Facial Expression Recognition system for monitoring neurological patients like Parkinson's disease. Worked on training adaptive models for pain assessment and emotion monitoring under supervision of Dr. Sajjad at DIP Lab, Islamia College Peshawar. NTNU (Norwegian University of Science and Technology) collaboration funded by Alameda AI toolkit. [Project Link](https://alamedaproject.eu/partners/ntnu-norwegian-university-of-science-and-technology/)
+
+## Publications
+
+- **M. Saad**, M. Saeed, F. Laamarti, and A. El Saddik, **Multimodal Interaction through Embodied Agents: An Intelligent Assistant for Immersive Virtual Environments**, *1st ACM CHI 2026 Workshop on Shaping Future Human Connection: Social Augmentation through XR Technologies*, Barcelona, Spain, 2026. **(Accepted)**
+
+- M. Saeed, M. Khan, **M. Saad**, N. Rahim, W. Gueaieb, A. El Saddik, **CP-Diffusion: Conditional Prompt-Based Diffusion Models for Video Generation**, *ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)*, 2025. **(Accepted)**
+
+- A. Vayani, D. Dissanayake, H. Watawana, N. Ahsan, [...], **M. Saad**, [...], F. Khan, [**All Languages Matter: Evaluating LMMs on Culturally Diverse 100 Languages**](https://arxiv.org/abs/2411.16508), *CVPR 2025*.
+
+- M. Khan, **M. Saad**, A. Khan, W. Gueaieb, A. El Saddik, G. De Masi, F. Karray, [**Action Knowledge Graph for Violence Detection Using Audiovisual Features**](https://doi.org/10.1109/ICCE59016.2024.10444158), *IEEE International Conference on Consumer Electronics (ICCE)*, Las Vegas, USA, 2024.
+
+- **M. Saad**, M. Khan, M. Saeed, A. El Saddik, W. Gueaieb, [**Combating Counterfeit Products in Smart Cities with Digital Twin Technology**](https://ieeexplore.ieee.org/document/10293496), *IEEE International Smart Cities Conference (ISC2)*, Bucharest, Romania, 2023.
+
+- M. Saeed, A. Khan, M. Khan, **M. Saad**, A. El Saddik, W. Gueaieb, [**Gaming-Based Education System for Children on Road Safety in Metaverse Towards Smart Cities**](https://doi.org/10.1109/ISC257844.2023.10293623), *IEEE International Smart Cities Conference (ISC2)*, Bucharest, Romania, 2023.
+
+- **M. Saad**, M. Ullah, H. Afridi, F. A. Cheikh, M. Sajjad, [**BreastUS: Vision Transformer for Breast Cancer Classification Using Breast Ultrasound Images**](https://ieeexplore.ieee.org/document/10090004), *International Conference on Signal-Image Technology & Internet-Based Systems (SITIS)*, Dijon, France, 2022.
