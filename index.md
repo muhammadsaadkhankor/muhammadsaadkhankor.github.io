@@ -28,7 +28,6 @@ My research focuses on:
 - **Immersive 3D Environments**: AI integration into virtual worlds
 - **AI-Powered Avatars**: Intelligent virtual agents and interactive experiences
 - **Medical Imaging**: Facial expression recognition for neurological patients
-- **Edge Computing**: Model optimization for resource-constrained devices
 
 ## News
 - **[Sept. 2025]** Started Master's in Electrical and Computer Engineering at **University of Ottawa**.
@@ -37,7 +36,7 @@ My research focuses on:
 
 ## Projects
 
-### ZapAura
+### WudFlux
 A web-based metaverse application featuring AI-powered professor avatars. Users can interact through audio or text, receiving natural responses to questions and queries in an immersive 3D virtual environment accessible through any browser.
 
 ### DebateVerse
