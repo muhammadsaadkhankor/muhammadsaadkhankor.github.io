@@ -13,9 +13,6 @@ Prior to my graduate studies, I completed my **Bachelor's degree in Software Eng
         <p><strong>University of Ottawa</strong><br>(2025-Present)</p>
     </div>
     <div style="text-align: center;">
-        <p><strong>MBZUAI</strong><br>(2023-2024)</p>
-    </div>
-    <div style="text-align: center;">
         <p><strong>Islamia College Peshawar</strong><br>(2017-2021)</p>
     </div>
 </div>
