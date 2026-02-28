@@ -26,25 +26,6 @@ My research focuses on:
 - **AI-Powered Avatars**: Intelligent virtual agents and interactive experiences
 - **Medical Imaging**: Facial expression recognition for neurological patients
 
-## News
-- **[Sept. 2025]** Started Master's in Electrical and Computer Engineering at **University of Ottawa**.
-- **[2023-2024]** Worked on **Real-Time Violence Detection** system at **MBZUAI** in collaboration with **Technology Innovation Institute (TII)**.
-- **[2021-2023]** Developed **EmotionVis** - Facial Expression Recognition system for neurological patients at **DIP Lab, Islamia College Peshawar** in collaboration with **NTNU** (Norwegian University of Science and Technology).
-
-## Projects
-
-### WudFlux
-A web-based metaverse application featuring AI-powered professor avatars. Users can interact through audio or text, receiving natural responses to questions and queries in an immersive 3D virtual environment accessible through any browser.
-
-### DebateVerse
-A fully autonomous debate system where two AI avatars engage in structured debates on given topics. Features intelligent moderator guidance, reference-supported arguments, and ensures proper engagement between debaters in real-time discussions.
-
-### Real-Time Violence Detection
-Real-time violence detection system optimized for edge devices. Collaboration between Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) and Technology Innovation Institute (TII). Deployed on Jetson Nano with model optimization techniques for efficient inference and resource-constrained deployment in real-world surveillance applications.
-
-### EmotionVis
-Facial Expression Recognition system for monitoring neurological patients like Parkinson's disease. Worked on training adaptive models for pain assessment and emotion monitoring under supervision of Dr. Sajjad at DIP Lab, Islamia College Peshawar. NTNU (Norwegian University of Science and Technology) collaboration funded by Alameda AI toolkit. [Project Link](https://alamedaproject.eu/partners/ntnu-norwegian-university-of-science-and-technology/)
-
 ## Publications
 
 - **M. Saad**, M. Saeed, F. Laamarti, and A. El Saddik, **Multimodal Interaction through Embodied Agents: An Intelligent Assistant for Immersive Virtual Environments**, *1st ACM CHI 2026 Workshop on Shaping Future Human Connection: Social Augmentation through XR Technologies*, Barcelona, Spain, 2026. **(Accepted)**
@@ -60,3 +41,17 @@ Facial Expression Recognition system for monitoring neurological patients like P
 - M. Saeed, A. Khan, M. Khan, **M. Saad**, A. El Saddik, W. Gueaieb, [**Gaming-Based Education System for Children on Road Safety in Metaverse Towards Smart Cities**](https://doi.org/10.1109/ISC257844.2023.10293623), *IEEE International Smart Cities Conference (ISC2)*, Bucharest, Romania, 2023.
 
 - **M. Saad**, M. Ullah, H. Afridi, F. A. Cheikh, M. Sajjad, [**BreastUS: Vision Transformer for Breast Cancer Classification Using Breast Ultrasound Images**](https://ieeexplore.ieee.org/document/10090004), *International Conference on Signal-Image Technology & Internet-Based Systems (SITIS)*, Dijon, France, 2022.
+
+## Projects
+
+### WudFlux
+A web-based metaverse application featuring AI-powered professor avatars. Users can interact through audio or text, receiving natural responses to questions and queries in an immersive 3D virtual environment accessible through any browser.
+
+### DebateVerse
+A fully autonomous debate system where two AI avatars engage in structured debates on given topics. Features intelligent moderator guidance, reference-supported arguments, and ensures proper engagement between debaters in real-time discussions.
+
+### Real-Time Violence Detection
+Real-time violence detection system optimized for edge devices. Collaboration between Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) and Technology Innovation Institute (TII). Deployed on Jetson Nano with model optimization techniques for efficient inference and resource-constrained deployment in real-world surveillance applications.
+
+### EmotionVis
+Facial Expression Recognition system for monitoring neurological patients like Parkinson's disease. Worked on training adaptive models for pain assessment and emotion monitoring under supervision of Dr. Sajjad at DIP Lab, Islamia College Peshawar. NTNU (Norwegian University of Science and Technology) collaboration funded by Alameda AI toolkit. [Project Link](https://alamedaproject.eu/partners/ntnu-norwegian-university-of-science-and-technology/)
