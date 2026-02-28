@@ -1,27 +1,27 @@
 # Basic Information 
-title: Hanan Gani
-position: CS PhD and Powell Fellow
-affiliation: University of California, San Diego UCSD | MBZUAI
-email: hgani@ucsd.edu
+title: Muhammad Saad
+position: Master's Student in Electrical and Computer Engineering
+affiliation: University of Ottawa
+email: msaad104@uottawa.ca
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+keywords: computer vision, AI, immersive 3D, avatars, machine learning
+description: Muhammad Saad - Graduate student specializing in Computer Vision and AI integration into immersive 3D environments.
+canonical: https://muhammadsaadkhankor.github.io/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.co.in/citations?user=XFugeQ4AAAAJ&hl=en
-cv_link: assets/files/CV_Hanan.pdf
-github_link: https://github.com/hananshafi
-linkedin: https://www.linkedin.com/in/hanan-gani-269a73134/
-twitter: https://mobile.twitter.com/hanan_shafi29
+google_scholar: https://scholar.google.com/citations?user=egchmHYAAAAJ&hl=en
+cv_link: assets/files/Saad_cv.pdf
+github_link: https://github.com/muhammadsaadkhankor
+linkedin: https://www.linkedin.com/in/muhammad-saad-b73ba2232/
+twitter: #
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/my_pic.jpg   #DSC04471.png
-favicon: ./assets/img/ucsd_logo.png
+avatar: ./assets/img/avatar.png
+favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
 
 # Footnote
