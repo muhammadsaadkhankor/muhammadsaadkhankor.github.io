@@ -229,6 +229,8 @@ papertitle {
       .image.avatar img {
         border-radius: 100%;
         width: 45%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
         padding: 20px;
         // border: 1px solid #ddd;
         // padding: 3px;
