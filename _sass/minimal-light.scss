@@ -228,9 +228,10 @@ papertitle {
 
       .image.avatar img {
         border-radius: 100%;
-        width: 45%;
+        width: 50%;
         aspect-ratio: 1/1;
         object-fit: cover;
+        object-position: center 30%;
         padding: 20px;
         // border: 1px solid #ddd;
         // padding: 3px;
@@ -514,9 +515,10 @@ footer {
 
    .image.avatar img {
         border-radius: 100%;
-        width: 117px;
-        height: 117px;
+        width: 130px;
+        height: 130px;
         object-fit: cover;
+        object-position: center 30%;
         padding:20px;
       }
   #head1o2 {
@@ -572,9 +574,10 @@ footer {
 
   .image.avatar img {
       border-radius: 100%;
-      width: 95px;
-      height: 95px;
+      width: 110px;
+      height: 110px;
       object-fit: cover;
+      object-position: center 30%;
       padding:20px;
   }
   #head1o2 {
