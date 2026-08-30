@@ -1,0 +1,192 @@
+name: Muhammad Saad
+avatar: /assets/img/prof_pic.jpg
+subtitle:
+  - Master's Student in Electrical and Computer Engineering
+  - University of Ottawa
+  - AI & Computer Vision
+tagline: Graduate student specializing in Computer Vision and AI integration into immersive 3D environments.
+
+links:
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/muhammad-saad-b73ba2232/
+    icon: linkedin
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=egchmHYAAAAJ&hl=en
+    icon: graduation-cap
+  - label: GitHub
+    url: https://github.com/muhammadsaadkhankor
+    icon: github
+  - label: CV
+    url: assets/files/SaadCV.pdf
+    icon: file-text
+
+about: |
+  I am a **Master's student in Electrical and Computer Engineering with a concentration in Artificial Intelligence at the University of Ottawa**. My research focuses on **pure computer vision** and the **integration of AI into immersive 3D worlds**, including the development of **AI-powered avatars** and **interactive virtual environments**.
+
+  Prior to my graduate studies, I completed my **Bachelor's degree in Software Engineering** at **Islamia College Peshawar** in 2021, where I developed expertise in **medical imaging** and **computer vision** alongside a strong foundation in software development and engineering principles.
+
+  My research focuses on:
+  - **Computer Vision**: Pure computer vision techniques and applications
+  - **Immersive 3D Environments**: AI integration into virtual worlds
+  - **AI-Powered Avatars**: Intelligent virtual agents and interactive experiences
+  - **Medical Imaging**: Facial expression recognition for neurological patients
+
+education:
+  - degree: M.Eng. in Electrical and Computer Engineering (AI concentration)
+    institution: University of Ottawa
+    location: Ottawa, Canada
+    date: 2025–Present
+  - degree: B.S. in Software Engineering
+    institution: Islamia College Peshawar
+    location: Peshawar, Pakistan
+    date: 2017–2021
+
+experience:
+  - title: Co-op Intern
+    company: Dell Technologies
+    location: Ottawa, Canada
+    date: May 2026 – Aug 2026
+    description: |
+      _Research topics:_ Agent Benchmarking and Agentic Operating Systems for Efficient Agent Execution on AI PC.
+      - Conducting research on agentic operating systems for AI PCs, focusing on how intelligent agents can coordinate tasks, tools, and user workflows in next-generation personal computing environments.
+      - Developing a human-agentic research assistant capable of taking a user-defined topic, decomposing it into research tasks, gathering relevant information, and generating structured, high-quality reports.
+      - Exploring multi-agent reasoning, task planning, tool use, and human-in-the-loop refinement to improve the reliability, usefulness, and transparency of AI-assisted research workflows.
+    badges:
+      - { name: AI, icon: brain, color: purple }
+      - { name: Agents, icon: cpu, color: green }
+      - { name: LLM, icon: database, color: blue }
+  - title: Software Engineer — AI
+    company: "EPAM Systems (Client: HUMAIN)"
+    location: Dubai, UAE
+    date: Sep 2025 – Feb 2026
+    description: |
+      - Deployed and customized an Open edX-based academy platform for HUMAIN Academy, including Tutor-based deployment, MySQL configuration, OAuth2 SSO integration, branded themes, enrollment workflows, and production-ready environment setup.
+      - Built autonomous AI agents for learning-roadmap generation, enabling users to define career or skill goals and receive structured, personalized learning paths with recommended topics, resources, and progression plans.
+      - Benchmarked and evaluated open-source voice cloning and text-to-speech models, focusing on inference performance, speech quality, model usability, and integration feasibility for AI-driven debate and conversational systems.
+      - Worked on an autonomous debate system where LLM agents generated arguments, simulated debates between multiple AI debaters, and evaluated debate quality using agent-based judging and scoring pipelines.
+      - Developed AI-camera research workflows for classroom intelligence, focusing on student emotion recognition, attention detection, and visual analytics to support adaptive learning and classroom engagement monitoring.
+    badges:
+      - { name: Open edX, icon: book-open, color: blue }
+      - { name: AI Agents, icon: cpu, color: purple }
+      - { name: TTS, icon: mic, color: orange }
+  - title: Graduate Research Assistant
+    company: Metaverse Center, Mohamed Bin Zayed University of Artificial Intelligence
+    location: Abu Dhabi, UAE
+    date: Jan 2023 – Aug 2025
+    description: |
+      _Research topics:_ Digital twin, Metaverse, Violence Detection, LLMs for Interactive Avatars.
+      - Designed and launched [WudFlux](https://WudFlux.com), a customized virtual learning platform built on Hubs, featuring full-body avatars, real-time lip-syncing, and sentiment-aware interaction for immersive web-based learning environments.
+      - Built **dTalk**, an AI-powered avatar system with expressive 3D animations and real-time lip-sync using Mixamo and Three.js, enabling LLM-driven, speech-based interaction ([GitHub](https://github.com/muhammadsaadkhankor/InteractiveAIAvatar.git)).
+      - Built expressive 3D avatar animations using Mixamo and enabled real-time lip-sync functionality through Three.js ([GitHub](https://github.com/muhammadsaadkhankor/MixamoAnimationsCombiner.git)).
+      - Created a React-based analytics dashboard for the Malaria No More (MnM) project, enabling live data visualization and streamlined decision-making.
+      - Developed a multimodal real-time violence detection system using LSTM, GRU, and Vision Transformer architectures on Jetson Nano at the Technology Innovation Institute (TII), improving inference performance for edge deployment.
+    badges:
+      - { name: Metaverse, icon: globe, color: green }
+      - { name: Three.js, icon: package, color: blue }
+      - { name: Vision, icon: eye, color: purple }
+  - title: Undergraduate Research Assistant
+    company: Digital Image Processing (DIP) Lab Islamia College Peshawar
+    location: Peshawar, Pakistan
+    date: Dec 2020 – 2022
+    description: |
+      _Research topics:_ Medical Imaging, Activity recognition, Facial emotion recognition (FER).
+      - Contributed to NTNU’s implementation of the facial emotional recognition module assigned by the ALAMEDA AI Toolkit to analyze facial expressions for pain assessment and emotional state monitoring in neurological healthcare.
+      - Attention-Based CNN-LSTM, CNN-GRU, and Video Vision Transformer (ViViT) Models for Complex Activity Recognition in Cricket.
+      - Teaching assistant for Python programming course.
+    badges:
+      - { name: Computer Vision, icon: eye, color: green }
+      - { name: Python, icon: code, color: blue }
+
+skills:
+  - category: Programming Languages
+    items: >
+      Python, MATLAB, C++, Java, SQL, JavaScript, TypeScript, HTML/CSS
+    icon: code
+  - category: AI & Machine Learning
+    items: >
+      PyTorch, TensorFlow, Keras, Scikit-learn, Hugging Face, OpenCV, Pandas, NumPy, Matplotlib, Vision Transformers, Diffusion Models, YOLOv5, CNNs, LSTMs, GRUs
+    icon: brain
+  - category: LLMs & Agentic AI
+    items: >
+      LLaMA, DeepSeek, GPT-4, Claude, Groq, Mistral, LangChain, LangGraph, LlamaIndex, Agentic Workflows, Multi-Agent Systems, Prompt Engineering, LoRA/PEFT Fine-Tuning
+    icon: cpu
+  - category: RAG & Vector Databases
+    items: >
+      FAISS, Pinecone, ChromaDB, Qdrant, Semantic Chunking, Hybrid Retrieval, Embedding-Based Search
+    icon: database
+  - category: Backend & APIs
+    items: >
+      FastAPI, Flask, Node.js, REST APIs, WebSockets, JSON-RPC 2.0, OAuth2
+    icon: server
+  - category: MLOps & DevOps
+    items: >
+      Docker, Docker Compose, Git, GitHub Actions, CI/CD, Webhooks, Nginx, Caddy, Weights & Biases
+    icon: cloud
+  - category: Cloud & Databases
+    items: >
+      AWS S3, AWS EC2, AWS SageMaker, DigitalOcean, PostgreSQL, MySQL, MariaDB, Redis, Supabase
+    icon: hard-drive
+  - category: Platforms & Web/3D
+    items: >
+      Open edX, Tutor, Frappé LMS, Mozilla Hubs, React, Next.js, Three.js, A-Frame, Streamlit, Blender, WordPress, LaTeX
+    icon: globe
+
+publications:
+  - authors: "M. Saad, M. Saeed, F. Laamarti, and A. El Saddik"
+    title: "Multimodal Interaction through Embodied Agents: An Intelligent Assistant for Immersive Virtual Environments"
+    venue: "1st ACM CHI 2026 Workshop on Shaping Future Human Connection: Social Augmentation through XR Technologies, Barcelona, Spain"
+    year: 2026
+    status: Accepted
+  - authors: "M. Saeed, M. Khan, **M. Saad**, N. Rahim, W. Gueaieb, A. El Saddik"
+    title: "CP-Diffusion: Conditional Prompt-Based Diffusion Models for Video Generation"
+    venue: "ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)"
+    year: 2025
+    status: Accepted
+  - authors: "A. Vayani, D. Dissanayake, H. Watawana, N. Ahsan, [...], **M. Saad**, [...], F. Khan"
+    title: "All Languages Matter: Evaluating LMMs on Culturally Diverse 100 Languages"
+    venue: "CVPR 2025"
+    year: 2025
+    links:
+      - label: arXiv
+        url: https://arxiv.org/abs/2411.16508
+  - authors: "M. Khan, **M. Saad**, A. Khan, W. Gueaieb, A. El Saddik, G. De Masi, F. Karray"
+    title: "Action Knowledge Graph for Violence Detection Using Audiovisual Features"
+    venue: "IEEE International Conference on Consumer Electronics (ICCE), Las Vegas, USA"
+    year: 2024
+    links:
+      - label: DOI
+        url: https://doi.org/10.1109/ICCE59016.2024.10444158
+  - authors: "**M. Saad**, M. Khan, M. Saeed, A. El Saddik, W. Gueaieb"
+    title: "Combating Counterfeit Products in Smart Cities with Digital Twin Technology"
+    venue: "IEEE International Smart Cities Conference (ISC2), Bucharest, Romania"
+    year: 2023
+    links:
+      - label: IEEE
+        url: https://ieeexplore.ieee.org/document/10293496
+  - authors: "M. Saeed, A. Khan, M. Khan, **M. Saad**, A. El Saddik, W. Gueaieb"
+    title: "Gaming-Based Education System for Children on Road Safety in Metaverse Towards Smart Cities"
+    venue: "IEEE International Smart Cities Conference (ISC2), Bucharest, Romania"
+    year: 2023
+    links:
+      - label: DOI
+        url: https://doi.org/10.1109/ISC257844.2023.10293623
+  - authors: "**M. Saad**, M. Ullah, H. Afridi, F. A. Cheikh, M. Sajjad"
+    title: "BreastUS: Vision Transformer for Breast Cancer Classification Using Breast Ultrasound Images"
+    venue: "International Conference on Signal-Image Technology & Internet-Based Systems (SITIS), Dijon, France"
+    year: 2022
+    links:
+      - label: IEEE
+        url: https://ieeexplore.ieee.org/document/10090004
+
+projects:
+  - title: WudFlux
+    description: A web-based metaverse application featuring AI-powered professor avatars. Users can interact through audio or text, receiving natural responses to questions and queries in an immersive 3D virtual environment accessible through any browser.
+  - title: DebateVerse
+    description: A fully autonomous debate system where two AI avatars engage in structured debates on given topics. Features intelligent moderator guidance, reference-supported arguments, and ensures proper engagement between debaters in real-time discussions.
+  - title: Real-Time Violence Detection
+    description: Real-time violence detection system optimized for edge devices. Collaboration between Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) and Technology Innovation Institute (TII). Deployed on Jetson Nano with model optimization techniques for efficient inference and resource-constrained deployment in real-world surveillance applications.
+  - title: EmotionVis
+    description: Facial Expression Recognition system for monitoring neurological patients like Parkinson's disease. Worked on training adaptive models for pain assessment and emotion monitoring under supervision of Dr. Sajjad at DIP Lab, Islamia College Peshawar. NTNU (Norwegian University of Science and Technology) collaboration funded by Alameda AI toolkit.
+    links:
+      - label: Project
+        url: https://alamedaproject.eu/partners/ntnu-norwegian-university-of-science-and-technology/
