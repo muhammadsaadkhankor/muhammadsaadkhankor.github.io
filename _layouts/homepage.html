@@ -20,239 +20,178 @@
 
     <link rel="stylesheet" href="./assets/css/style.css">
   </head>
-  <body>
-    <section class="hero" aria-label="Introduction">
-      <canvas id="matrix-canvas" aria-hidden="true"></canvas>
-      <div class="hero-fade"></div>
-      <div class="hero-inner">
-        <img class="profile-img" src="{{ site.data.profile.avatar }}" alt="Profile photo of {{ site.data.profile.name }}">
-        <div class="hero-text">
-          <h1>{{ site.data.profile.name }}</h1>
-          <p class="subtitle">{{ site.data.profile.subtitle | join: ' | ' }}</p>
-          <p class="tagline"><em>{{ site.data.profile.tagline }}</em></p>
-          <div class="hero-chips">
-            {% for link in site.data.profile.links %}
-            <a class="chip" href="{{ link.url }}" target="_blank" rel="noopener" aria-label="{{ link.label }}">
+  <body id="top">
+    {% assign p = site.data.profile %}
+
+    <header class="navbar">
+      <nav class="navbar-inner">
+        <a href="#top">Homepage</a>
+        <a href="#about">About</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#honors">Honors and Awards</a>
+        <a href="#educations">Educations</a>
+        <a href="#services">Services</a>
+        <a href="#experience">Experience</a>
+        <a href="#miscellaneous">Miscellaneous</a>
+      </nav>
+    </header>
+
+    <div class="wrapper">
+      <aside class="sidebar">
+        <img class="avatar" src="{{ p.avatar | relative_url }}" alt="{{ p.name }}">
+        <h1 class="name">{{ p.name }}</h1>
+        <div class="subtitle">
+          {% for line in p.subtitle %}
+          <p>{{ line }}</p>
+          {% endfor %}
+        </div>
+        {% if p.location %}
+        <p class="location"><i data-lucide="map-pin"></i>{{ p.location }}</p>
+        {% endif %}
+        <ul class="sidebar-links">
+          {% for link in p.links %}
+          <li>
+            <a href="{{ link.url }}" target="_blank" rel="noopener">
               <i data-lucide="{{ link.icon }}"></i>
               <span>{{ link.label }}</span>
             </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </aside>
+
+      <main class="content">
+        <section id="about">
+          <h2>🤓 About Saad</h2>
+          <div class="section-body">{{ p.about | markdownify }}</div>
+          {% if p.affiliations %}
+          <div class="affiliations">
+            {% for aff in p.affiliations %}
+            <a href="{{ aff.url }}" target="_blank" rel="noopener"><img src="{{ aff.img | relative_url }}" alt="{{ aff.alt }}"></a>
             {% endfor %}
           </div>
-        </div>
-      </div>
-    </section>
+          {% endif %}
+        </section>
 
-    <main id="main">
-      <section class="accordion" data-section="about" id="about">
-        <h2 class="accordion-header">
-          <button aria-expanded="false">
-            <i data-lucide="user" class="accordion-icon"></i>
-            <span class="accordion-title">About Me</span>
-            <i data-lucide="chevron-down" class="accordion-chevron"></i>
-          </button>
-        </h2>
-        <div class="accordion-divider"></div>
-        <div class="accordion-body">
-          <div class="accordion-body-inner section-content">
-            {{ site.data.profile.about | markdownify }}
-          </div>
-        </div>
-      </section>
-
-      <section class="accordion open" data-section="experience" id="experience">
-        <h2 class="accordion-header">
-          <button aria-expanded="true">
-            <i data-lucide="briefcase" class="accordion-icon"></i>
-            <span class="accordion-title">Professional Experience</span>
-            <i data-lucide="chevron-down" class="accordion-chevron"></i>
-          </button>
-        </h2>
-        <div class="accordion-divider"></div>
-        <div class="accordion-body">
-          <div class="accordion-body-inner">
-            {% if site.data.profile.experience.size > 0 %}
-            <div class="timeline">
-              {% for item in site.data.profile.experience %}
-              <article class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="card">
-                  <div class="card-header">
-                    <div style="display:flex;align-items:center;gap:0.5rem;flex-wrap:wrap;">
-                      <h3 class="card-title">{{ item.title }}</h3>
-                      {% if item.badges %}
-                      <div class="card-badges">
-                        {% for badge in item.badges %}
-                        <span class="tech-badge {{ badge.color }}" aria-label="{{ badge.name }}">
-                          <i data-lucide="{{ badge.icon }}"></i>
-                        </span>
-                        {% endfor %}
-                      </div>
-                      {% endif %}
-                    </div>
-                    <span class="date-pill">{{ item.date }}</span>
-                  </div>
-                  <div class="card-meta">
-                    <i data-lucide="building-2"></i>
-                    <span>{{ item.company }}</span>
-                    <span class="meta-divider"></span>
-                    <i data-lucide="map-pin"></i>
-                    <span>{{ item.location }}</span>
-                  </div>
-                  <div class="card-desc">{{ item.description | markdownify }}</div>
-                </div>
-              </article>
+        <section id="news">
+          <h2>🔥 News</h2>
+          <div class="news-scroll">
+            <ul>
+              {% for item in p.news %}
+              <li><strong>{{ item.date }}</strong> {{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
               {% endfor %}
-            </div>
-            {% endif %}
+            </ul>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="accordion" data-section="education" id="education">
-        <h2 class="accordion-header">
-          <button aria-expanded="false">
-            <i data-lucide="graduation-cap" class="accordion-icon"></i>
-            <span class="accordion-title">Education</span>
-            <i data-lucide="chevron-down" class="accordion-chevron"></i>
-          </button>
-        </h2>
-        <div class="accordion-divider"></div>
-        <div class="accordion-body">
-          <div class="accordion-body-inner">
-            <div class="grid-list">
-              {% for item in site.data.profile.education %}
-              <article class="card">
-                <div class="card-header" style="justify-content:flex-start;gap:0.5rem;flex-wrap:wrap;">
-                  <h3 class="card-title">{{ item.degree }}</h3>
-                  <span class="date-pill">{{ item.date }}</span>
+        <section id="publications">
+          <h2>📝 Selected Publications</h2>
+          <p class="pub-note">Full list on <a href="{{ site.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a>.</p>
+          <div class="publications">
+            {% for pub in p.publications %}
+            <div class="pub-row">
+              <div class="pub-teaser">
+                <img src="{{ pub.teaser | default: '/assets/img/pub_placeholder.svg' | relative_url }}" alt="teaser" class="teaser">
+                {% if pub.badge %}<abbr class="badge">{{ pub.badge }}</abbr>{% endif %}
+              </div>
+              <div class="pub-info">
+                <div class="title">
+                  {% if pub.links and pub.links.size > 0 %}
+                  <a href="{{ pub.links[0].url }}" target="_blank" rel="noopener">{{ pub.title }}</a>
+                  {% else %}
+                  {{ pub.title }}
+                  {% endif %}
                 </div>
-                <div class="card-meta">
-                  <i data-lucide="building-2"></i>
-                  <span>{{ item.institution }}</span>
-                  <span class="meta-divider"></span>
-                  <i data-lucide="map-pin"></i>
-                  <span>{{ item.location }}</span>
-                </div>
-              </article>
-              {% endfor %}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="accordion" data-section="publications" id="publications">
-        <h2 class="accordion-header">
-          <button aria-expanded="false">
-            <i data-lucide="book-open" class="accordion-icon"></i>
-            <span class="accordion-title">Publications</span>
-            <i data-lucide="chevron-down" class="accordion-chevron"></i>
-          </button>
-        </h2>
-        <div class="accordion-divider"></div>
-        <div class="accordion-body">
-          <div class="accordion-body-inner">
-            <div class="grid-list">
-              {% for pub in site.data.profile.publications %}
-              <article class="card pub-card">
-                {% if pub.links and pub.links.size > 0 %}
-                <a href="{{ pub.links[0].url }}" target="_blank" rel="noopener" class="pub-title">{{ pub.title }}</a>
-                {% else %}
-                <p class="pub-title">{{ pub.title }}</p>
-                {% endif %}
-                <p class="pub-authors">{{ pub.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
-                <p class="pub-venue">{{ pub.venue }}{% if pub.year %}, {{ pub.year }}{% endif %}{% if pub.status %} — {{ pub.status }}{% endif %}</p>
+                <div class="author">{{ pub.authors }}</div>
+                <div class="periodical"><em>{{ pub.venue }}</em></div>
                 {% if pub.links %}
-                <div class="pub-links">
+                <div class="links">
                   {% for link in pub.links %}
-                  <a class="pub-link" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+                  <a href="{{ link.url }}" class="btn" target="_blank" rel="noopener">{{ link.label }}</a>
                   {% endfor %}
                 </div>
                 {% endif %}
-              </article>
-              {% endfor %}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="accordion" data-section="skills" id="skills">
-        <h2 class="accordion-header">
-          <button aria-expanded="false">
-            <i data-lucide="cpu" class="accordion-icon"></i>
-            <span class="accordion-title">Skills</span>
-            <i data-lucide="chevron-down" class="accordion-chevron"></i>
-          </button>
-        </h2>
-        <div class="accordion-divider"></div>
-        <div class="accordion-body">
-          <div class="accordion-body-inner">
-            <div class="grid-list">
-              {% for skill in site.data.profile.skills %}
-              <article class="card">
-                <div class="card-header" style="justify-content:flex-start;gap:0.5rem;flex-wrap:wrap;">
-                  <i data-lucide="{{ skill.icon }}" class="accordion-icon" style="width:20px;height:20px;"></i>
-                  <h3 class="card-title" style="font-size:1rem;">{{ skill.category }}</h3>
-                </div>
-                <div class="card-desc" style="margin-top:0.75rem;">{{ skill.items }}</div>
-              </article>
-              {% endfor %}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="accordion" data-section="projects" id="projects">
-        <h2 class="accordion-header">
-          <button aria-expanded="false">
-            <i data-lucide="folder" class="accordion-icon"></i>
-            <span class="accordion-title">Projects</span>
-            <i data-lucide="chevron-down" class="accordion-chevron"></i>
-          </button>
-        </h2>
-        <div class="accordion-divider"></div>
-        <div class="accordion-body">
-          <div class="accordion-body-inner">
-            <div class="grid-list">
-              {% for project in site.data.profile.projects %}
-              <article class="card">
-                <div class="card-header">
-                  <h3 class="card-title">{{ project.title }}</h3>
-                </div>
-                <div class="card-desc">{{ project.description | markdownify }}</div>
-                {% if project.links %}
-                <div class="pub-links" style="margin-top:0.75rem;">
-                  {% for link in project.links %}
-                  <a class="pub-link" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
-                  {% endfor %}
-                </div>
+                {% if pub.tldr %}
+                <ul class="tldr"><li><strong>TL;DR,</strong> {{ pub.tldr }}</li></ul>
                 {% endif %}
-              </article>
-              {% endfor %}
+              </div>
             </div>
+            {% endfor %}
           </div>
-        </div>
-      </section>
-    </main>
+        </section>
 
-    <footer class="site-footer">
-      <p>Powered by Jekyll</p>
-    </footer>
+        <section id="honors">
+          <h2>🏅 Honors and Awards</h2>
+          <ul>
+            {% for item in p.honors %}
+            <li><strong>{{ item.date }}</strong> {{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+            {% endfor %}
+          </ul>
+        </section>
 
-    <button class="fab fab-left" id="skills-fab" aria-label="Go to skills section">
-      <i data-lucide="layout-grid"></i>
-    </button>
+        <section id="educations">
+          <h2>📖 Educations</h2>
+          <ul>
+            {% for item in p.education %}
+            <li>🎓 <strong>{{ item.date }}</strong>, {{ item.degree }}, {{ item.school }}, {{ item.location }}.</li>
+            {% endfor %}
+          </ul>
+        </section>
 
-    <button class="fab fab-right" id="top-fab" aria-label="Back to top">
-      <i data-lucide="arrow-up"></i>
-    </button>
+        <section id="services">
+          <h2>📚 Services</h2>
+          {% for group in p.services %}
+          <h4>{{ group.heading }}</h4>
+          <ul>
+            {% for item in group.items %}
+            <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+            {% endfor %}
+          </ul>
+          {% endfor %}
+        </section>
+
+        <section id="experience">
+          <h2>💼 Experience</h2>
+          <ul>
+            {% for item in p.experience %}
+            <li><strong>{{ item.date }}</strong>, {% if item.org_url %}<a href="{{ item.org_url }}" target="_blank" rel="noopener">{{ item.org }}</a>{% else %}{{ item.org }}{% endif %}, {{ item.role }}, {{ item.location }}.</li>
+            {% endfor %}
+          </ul>
+        </section>
+
+        <section id="miscellaneous">
+          <h2>🌏 Miscellaneous</h2>
+          {% if p.misc.sports %}
+          <h4>Sports</h4>
+          <p>{{ p.misc.sports }}</p>
+          {% endif %}
+          {% if p.misc.travel %}
+          <h4>Travel &amp; Hobbies</h4>
+          <p>{{ p.misc.travel }}</p>
+          {% endif %}
+          {% if p.misc.photos %}
+          <div class="photo-grid">
+            {% for photo in p.misc.photos %}
+            <figure>
+              <img src="{{ photo.img | relative_url }}" alt="{{ photo.label }}">
+              {% if photo.label %}<figcaption>{{ photo.label }}</figcaption>{% endif %}
+            </figure>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </section>
+
+        <footer class="site-footer">
+          <p>Last updated on: {{ site.time | date: "%m-%d-%Y" }} , Powered by Jekyll.</p>
+        </footer>
+      </main>
+    </div>
 
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
     <script>
       lucide.createIcons();
     </script>
-    <script src="./assets/js/matrix-rain.js" type="application/javascript"></script>
-    <script src="./assets/js/accordion.js" type="application/javascript"></script>
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

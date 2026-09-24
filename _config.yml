@@ -1,6 +1,6 @@
 # Basic Information 
 title: Muhammad Saad
-position: Master's Student in Electrical and Computer Engineering
+position: M.A.Sc. Student in Electrical and Computer Engineering
 affiliation: University of Ottawa
 email: msaad104@uottawa.ca
 
@@ -20,7 +20,7 @@ twitter: #
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: /assets/img/prof_pic.jpg
+avatar: /assets/img/my_pic.jpg
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
 
@@ -31,10 +31,6 @@ enable_footnote: true
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics
 # google_analytics: UA-111540567-4
-
-# Use this project as a remote theme for GitHub Pages
-# See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-remote_theme: yaoyao-liu/minimal-light
 
 # The following files will be removed from the generated website.
 exclude:

@@ -1,4 +1,342 @@
 ---
 ---
 
-@import "minimal-light";
+// Academic homepage — AcadHomepage-style layout (sidebar + top nav + sections)
+
+$theme-color: #00369f;
+$text-color: #1f2328;
+$text-light: #5c6570;
+$border-color: #e8e8e8;
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", "Helvetica Neue", "Trebuchet MS", Arial, sans-serif;
+  font-size: 15.5px;
+  line-height: 1.65;
+  color: $text-color;
+  background: #fff;
+}
+
+a {
+  color: $theme-color;
+  text-decoration: none;
+  &:hover { text-decoration: underline; }
+}
+
+section { scroll-margin-top: 70px; }
+
+// ---------- Top navigation bar ----------
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #fff;
+  border-bottom: 1px solid $border-color;
+}
+
+.navbar-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.9rem 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.4rem;
+
+  a {
+    color: $text-color;
+    font-size: 0.95rem;
+    font-weight: 500;
+    &:hover { color: $theme-color; text-decoration: none; }
+  }
+}
+
+// ---------- Page wrapper ----------
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+// ---------- Sidebar ----------
+
+.sidebar {
+  width: 250px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 80px;
+  text-align: left;
+}
+
+.avatar {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+}
+
+.name {
+  font-size: 1.5rem;
+  margin: 1rem 0 0.15rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  p {
+    margin: 0;
+    color: $text-light;
+    font-size: 0.95rem;
+  }
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0.9rem 0 0.6rem;
+  font-size: 0.95rem;
+
+  svg, .lucide { width: 17px; height: 17px; flex-shrink: 0; }
+}
+
+.sidebar-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li a {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    padding: 0.28rem 0;
+    color: $text-color;
+    font-size: 0.95rem;
+
+    svg, .lucide { width: 18px; height: 18px; flex-shrink: 0; }
+    &:hover { color: $theme-color; text-decoration: none; }
+  }
+}
+
+// ---------- Content ----------
+
+.content {
+  flex: 1;
+  min-width: 0;
+  padding-bottom: 1rem;
+}
+
+section {
+  margin-bottom: 1.4rem;
+
+  h2 {
+    font-size: 1.45rem;
+    font-weight: 700;
+    margin: 0 0 0.9rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid $border-color;
+  }
+
+  h4 {
+    margin: 1rem 0 0.3rem;
+    font-size: 1.05rem;
+  }
+
+  ul {
+    margin: 0.3rem 0 0.9rem;
+    padding-left: 1.5rem;
+  }
+
+  li { margin-bottom: 0.45rem; }
+
+  p { margin: 0.5rem 0; }
+}
+
+.section-body {
+  text-align: justify;
+  p { margin: 0.6rem 0; }
+}
+
+.affiliations {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 1.2rem 0 0.4rem;
+
+  img { max-height: 64px; max-width: 200px; object-fit: contain; }
+}
+
+// ---------- News ----------
+
+.news-scroll {
+  max-height: 200px;
+  overflow-y: auto;
+  padding-right: 0.8rem;
+
+  ul { margin: 0; }
+}
+
+// ---------- Publications ----------
+
+.pub-note {
+  color: $text-light;
+  font-size: 0.92rem;
+  margin: -0.3rem 0 1.1rem !important;
+}
+
+.pub-row {
+  display: flex;
+  gap: 1.4rem;
+  margin-bottom: 1.8rem;
+}
+
+.pub-teaser {
+  position: relative;
+  width: 270px;
+  flex-shrink: 0;
+
+  .teaser {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.35);
+    display: block;
+  }
+
+  .badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: $theme-color;
+    color: #fff;
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 0.3em 0.7em;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+    white-space: nowrap;
+  }
+}
+
+.pub-info {
+  min-width: 0;
+
+  .title {
+    font-weight: 700;
+    font-size: 1.02rem;
+    margin-bottom: 0.15rem;
+  }
+
+  .author { margin-bottom: 0.1rem; }
+
+  .periodical {
+    color: $text-light;
+    margin-bottom: 0.35rem;
+  }
+
+  .links {
+    margin-bottom: 0.4rem;
+
+    a.btn {
+      display: inline-block;
+      color: $text-color;
+      border: 1px solid $text-color;
+      border-radius: 3px;
+      padding: 0.05rem 0.5rem;
+      font-size: 0.8rem;
+      margin-right: 0.3rem;
+
+      &:hover {
+        color: $theme-color;
+        border-color: $theme-color;
+        text-decoration: none;
+      }
+    }
+  }
+
+  ul.tldr {
+    margin: 0.2rem 0 0;
+    padding-left: 1.3rem;
+    color: $text-color;
+  }
+}
+
+// ---------- Photo grid ----------
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 1rem;
+  margin-top: 0.8rem;
+
+  figure {
+    margin: 0;
+    position: relative;
+
+    img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 6px;
+      display: block;
+    }
+
+    figcaption {
+      position: absolute;
+      top: 8px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: $theme-color;
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.2em 0.8em;
+      border-radius: 3px;
+      white-space: nowrap;
+    }
+  }
+}
+
+// ---------- Footer ----------
+
+.site-footer {
+  border-top: 1px solid $border-color;
+  margin-top: 2rem;
+  padding: 1.2rem 0 2rem;
+  color: $text-light;
+  font-size: 0.9rem;
+}
+
+// ---------- Responsive ----------
+
+@media (max-width: 860px) {
+  .wrapper {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .sidebar {
+    position: static;
+    width: 100%;
+    text-align: center;
+  }
+
+  .avatar { margin: 0 auto; }
+
+  .location, .sidebar-links li a { justify-content: center; }
+
+  .pub-row { flex-direction: column; }
+
+  .pub-teaser { width: 100%; max-width: 340px; }
+}
