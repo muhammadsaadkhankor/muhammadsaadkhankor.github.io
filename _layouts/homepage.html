@@ -18,22 +18,28 @@
     <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
     <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   <body id="top">
     {% assign p = site.data.profile %}
 
     <header class="navbar">
-      <nav class="navbar-inner">
-        <a href="#top">Homepage</a>
-        <a href="#about">About</a>
-        <a href="#news">News</a>
-        <a href="#publications">Publications</a>
-        <a href="#honors">Honors and Awards</a>
-        <a href="#educations">Educations</a>
-        <a href="#services">Services</a>
-        <a href="#experience">Experience</a>
-        <a href="#miscellaneous">Miscellaneous</a>
+      <nav class="navbar-inner" aria-label="Main navigation">
+        <a class="nav-title" href="#top">Homepage</a>
+        <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#about">About</a>
+          <a href="#news">News</a>
+          <a href="#publications">Publications</a>
+          <a href="#honors">Honors and Awards</a>
+          <a href="#educations">Education</a>
+          <a href="#services">Services</a>
+          <a href="#experience">Experience</a>
+          <a href="#miscellaneous">Miscellaneous</a>
+        </div>
       </nav>
     </header>
 
@@ -47,13 +53,13 @@
           {% endfor %}
         </div>
         {% if p.location %}
-        <p class="location"><i data-lucide="map-pin"></i>{{ p.location }}</p>
+        <p class="location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i>{{ p.location }}</p>
         {% endif %}
         <ul class="sidebar-links">
           {% for link in p.links %}
           <li>
             <a href="{{ link.url }}" target="_blank" rel="noopener">
-              <i data-lucide="{{ link.icon }}"></i>
+              <i class="{{ link.icon }}" aria-hidden="true"></i>
               <span>{{ link.label }}</span>
             </a>
           </li>
@@ -65,6 +71,9 @@
         <section id="about">
           <h2>🤓 About Saad</h2>
           <div class="section-body">{{ p.about | markdownify }}</div>
+          {% if p.current_focus %}
+          <p class="current-focus">🤖 {{ p.current_focus | markdownify | remove: '<p>' | remove: '</p>' }} <span class="obf-email">{{ p.email_obfuscated }}</span> for collaboration.</p>
+          {% endif %}
           {% if p.affiliations %}
           <div class="affiliations">
             {% for aff in p.affiliations %}
@@ -79,7 +88,12 @@
           <div class="news-scroll">
             <ul>
               {% for item in p.news %}
-              <li><strong>{{ item.date }}</strong> {{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+              {% assign t = item.text | markdownify | remove: '<p>' | remove: '</p>'
+                | replace: 'Best Paper Award', '<span class="hl">Best Paper Award</span>'
+                | replace: 'Oral', '<span class="hl">Oral</span>'
+                | replace: 'Spotlight', '<span class="hl">Spotlight</span>'
+                | replace: 'Poster', '<span class="hl">Poster</span>' %}
+              <li><strong>{{ item.date }}</strong> {{ t }}</li>
               {% endfor %}
             </ul>
           </div>
@@ -87,12 +101,12 @@
 
         <section id="publications">
           <h2>📝 Selected Publications</h2>
-          <p class="pub-note">Full list on <a href="{{ site.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a>.</p>
+          <p class="pub-note">(&#42; indicates equal contribution; <sup>#</sup> indicates corresponding authorship.) Full list on <a href="{{ site.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a>.</p>
           <div class="publications">
             {% for pub in p.publications %}
             <div class="pub-row">
               <div class="pub-teaser">
-                <img src="{{ pub.teaser | default: '/assets/img/pub_placeholder.svg' | relative_url }}" alt="teaser" class="teaser">
+                <img src="{{ pub.teaser | default: '/assets/img/pub_placeholder.svg' | relative_url }}" alt="Figure for: {{ pub.title }}" class="teaser" loading="lazy">
                 {% if pub.badge %}<abbr class="badge">{{ pub.badge }}</abbr>{% endif %}
               </div>
               <div class="pub-info">
@@ -113,7 +127,7 @@
                 </div>
                 {% endif %}
                 {% if pub.tldr %}
-                <ul class="tldr"><li><strong>TL;DR,</strong> {{ pub.tldr }}</li></ul>
+                <ul class="tldr"><li><strong class="hl">TLDR;</strong> {{ pub.tldr }}</li></ul>
                 {% endif %}
               </div>
             </div>
@@ -125,7 +139,7 @@
           <h2>🏅 Honors and Awards</h2>
           <ul>
             {% for item in p.honors %}
-            <li><strong>{{ item.date }}</strong> {{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+            <li><em class="item-date">{{ item.date }}</em> {{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
             {% endfor %}
           </ul>
         </section>
@@ -134,7 +148,7 @@
           <h2>📖 Educations</h2>
           <ul>
             {% for item in p.education %}
-            <li>🎓 <strong>{{ item.date }}</strong>, {{ item.degree }}, {{ item.school }}, {{ item.location }}.</li>
+            <li><i class="fa-solid fa-graduation-cap edu-icon" aria-hidden="true"></i> <em class="item-date">{{ item.date }}</em>, {{ item.degree }}, {{ item.school }}, {{ item.location }}.</li>
             {% endfor %}
           </ul>
         </section>
@@ -155,7 +169,7 @@
           <h2>💼 Experience</h2>
           <ul>
             {% for item in p.experience %}
-            <li><strong>{{ item.date }}</strong>, {% if item.org_url %}<a href="{{ item.org_url }}" target="_blank" rel="noopener">{{ item.org }}</a>{% else %}{{ item.org }}{% endif %}, {{ item.role }}, {{ item.location }}.</li>
+            <li><em class="item-date">{{ item.date }}</em>, {% if item.org_url %}<a href="{{ item.org_url }}" target="_blank" rel="noopener">{{ item.org }}</a>{% else %}{{ item.org }}{% endif %}, {{ item.role }}, {{ item.location }}.</li>
             {% endfor %}
           </ul>
         </section>
@@ -174,10 +188,16 @@
           <div class="photo-grid">
             {% for photo in p.misc.photos %}
             <figure>
-              <img src="{{ photo.img | relative_url }}" alt="{{ photo.label }}">
+              <img src="{{ photo.img | relative_url }}" alt="{{ photo.label | default: 'Photo' }}" loading="lazy">
               {% if photo.label %}<figcaption>{{ photo.label }}</figcaption>{% endif %}
             </figure>
             {% endfor %}
+          </div>
+          {% endif %}
+          {% if p.misc.quote %}
+          <div class="favorite-quote">
+            <h4>Favorite Quote</h4>
+            <blockquote>{{ p.misc.quote | markdownify | remove: '<p>' | remove: '</p>' }}</blockquote>
           </div>
           {% endif %}
         </section>
@@ -188,9 +208,22 @@
       </main>
     </div>
 
-    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
     <script>
-      lucide.createIcons();
+      (function () {
+        var toggle = document.querySelector('.nav-toggle');
+        var links = document.getElementById('nav-links');
+        if (!toggle || !links) return;
+        toggle.addEventListener('click', function () {
+          var open = links.classList.toggle('open');
+          toggle.setAttribute('aria-expanded', open);
+        });
+        links.addEventListener('click', function (e) {
+          if (e.target.tagName === 'A') {
+            links.classList.remove('open');
+            toggle.setAttribute('aria-expanded', 'false');
+          }
+        });
+      })();
     </script>
     {% if site.google_analytics %}
     <script>

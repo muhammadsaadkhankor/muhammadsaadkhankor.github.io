@@ -4,8 +4,10 @@
 // Academic homepage — AcadHomepage-style layout (sidebar + top nav + sections)
 
 $theme-color: #00369f;
-$text-color: #1f2328;
-$text-light: #5c6570;
+$link-color: #1a4d9c;
+$highlight: #e00;
+$text-color: #3a3f44;
+$text-light: #6b7280;
 $border-color: #e8e8e8;
 
 * { box-sizing: border-box; }
@@ -14,17 +16,29 @@ html { scroll-behavior: smooth; }
 
 body {
   margin: 0;
-  font-family: "Segoe UI", "Helvetica Neue", "Trebuchet MS", Arial, sans-serif;
-  font-size: 15.5px;
-  line-height: 1.65;
+  font-family: "Trebuchet MS", "Source Sans 3", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16.5px;
+  line-height: 1.7;
   color: $text-color;
   background: #fff;
+  overflow-x: hidden;
 }
 
 a {
-  color: $theme-color;
-  text-decoration: none;
-  &:hover { text-decoration: underline; }
+  color: $link-color;
+  text-decoration: underline;
+  &:hover { color: $theme-color; }
+}
+
+.hl { color: $highlight; font-weight: 600; }
+.item-date { font-style: italic; }
+
+blockquote {
+  margin: 0.8rem 0;
+  padding: 0.4rem 1rem;
+  border-left: 3px solid $theme-color;
+  color: $text-light;
+  font-style: italic;
 }
 
 section { scroll-margin-top: 70px; }
@@ -45,14 +59,38 @@ section { scroll-margin-top: 70px; }
   padding: 0.9rem 1.5rem;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 0.4rem 1.4rem;
 
   a {
     color: $text-color;
     font-size: 0.95rem;
     font-weight: 500;
-    &:hover { color: $theme-color; text-decoration: none; }
+    text-decoration: none;
+    &:hover { color: $theme-color; }
   }
+
+  .nav-title {
+    font-weight: 700;
+    margin-right: auto;
+  }
+}
+
+.nav-toggle {
+  display: none;
+  background: none;
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  padding: 0.35rem 0.6rem;
+  font-size: 1.1rem;
+  color: $text-color;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.4rem;
 }
 
 // ---------- Page wrapper ----------
@@ -106,7 +144,7 @@ section { scroll-margin-top: 70px; }
   margin: 0.9rem 0 0.6rem;
   font-size: 0.95rem;
 
-  svg, .lucide { width: 17px; height: 17px; flex-shrink: 0; }
+  i { width: 17px; flex-shrink: 0; }
 }
 
 .sidebar-links {
@@ -121,9 +159,10 @@ section { scroll-margin-top: 70px; }
     padding: 0.28rem 0;
     color: $text-color;
     font-size: 0.95rem;
+    text-decoration: none;
 
-    svg, .lucide { width: 18px; height: 18px; flex-shrink: 0; }
-    &:hover { color: $theme-color; text-decoration: none; }
+    i { width: 18px; flex-shrink: 0; }
+    &:hover { color: $theme-color; }
   }
 }
 
@@ -176,10 +215,18 @@ section {
   img { max-height: 64px; max-width: 200px; object-fit: contain; }
 }
 
+.current-focus {
+  margin-top: 1rem !important;
+}
+
+.obf-email {
+  color: $link-color;
+}
+
 // ---------- News ----------
 
 .news-scroll {
-  max-height: 200px;
+  max-height: 350px;
   overflow-y: auto;
   padding-right: 0.8rem;
 
@@ -197,7 +244,11 @@ section {
 .pub-row {
   display: flex;
   gap: 1.4rem;
-  margin-bottom: 1.8rem;
+  padding-bottom: 1.6rem;
+  margin-bottom: 1.6rem;
+  border-bottom: 1px solid $border-color;
+
+  &:last-child { border-bottom: none; }
 }
 
 .pub-teaser {
@@ -236,6 +287,8 @@ section {
     font-weight: 700;
     font-size: 1.02rem;
     margin-bottom: 0.15rem;
+
+    a { color: $link-color; text-decoration: underline; }
   }
 
   .author { margin-bottom: 0.1rem; }
@@ -276,7 +329,7 @@ section {
 
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   margin-top: 0.8rem;
 
@@ -318,9 +371,25 @@ section {
   font-size: 0.9rem;
 }
 
+.edu-icon { color: $theme-color; }
+
 // ---------- Responsive ----------
 
-@media (max-width: 860px) {
+@media (max-width: 900px) {
+  .nav-toggle { display: block; }
+
+  .nav-links {
+    display: none;
+    flex-basis: 100%;
+    flex-direction: column;
+    gap: 0;
+    padding-top: 0.5rem;
+
+    a { padding: 0.45rem 0; }
+
+    &.open { display: flex; }
+  }
+
   .wrapper {
     flex-direction: column;
     gap: 1.5rem;
@@ -339,4 +408,14 @@ section {
   .pub-row { flex-direction: column; }
 
   .pub-teaser { width: 100%; max-width: 340px; }
+
+  .photo-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 560px) {
+  .photo-grid { grid-template-columns: 1fr; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
 }

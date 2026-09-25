@@ -6,22 +6,26 @@ subtitle:
 location: Ottawa, Canada
 tagline: Graduate student specializing in Computer Vision and AI integration into immersive 3D environments.
 
+# Sidebar link icons are Font Awesome 6 classes (loaded from CDN).
+# Add/remove rows freely — any link you don't provide is simply hidden.
+# Examples you can add: Twitter/X  -> "fa-brands fa-x-twitter"
+#                       ResearchGate -> "fa-brands fa-researchgate"
 links:
   - label: Email
     url: mailto:msaad104@uottawa.ca
-    icon: mail
+    icon: fa-solid fa-envelope
   - label: LinkedIn
     url: https://www.linkedin.com/in/muhammad-saad-b73ba2232/
-    icon: linkedin
+    icon: fa-brands fa-linkedin
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=egchmHYAAAAJ&hl=en
-    icon: graduation-cap
+    icon: fa-solid fa-graduation-cap
   - label: Github
     url: https://github.com/muhammadsaadkhankor
-    icon: github
+    icon: fa-brands fa-github
   - label: CV
     url: assets/files/SaadCV.pdf
-    icon: file-text
+    icon: fa-solid fa-file-lines
 
 about: |
   Hi there! Saad is a Master's (M.A.Sc.) student in **Electrical and Computer Engineering (Applied AI) at the [University of Ottawa](https://www.uottawa.ca/en)**, Canada, working under the supervision of [Prof. Abdulmotaleb El Saddik](https://www.site.uottawa.ca/~elsaddik/). His thesis, *OmniTutor*, explores a USD-based architecture for embodied conversational agents in simulated learning environments. Previously, Saad worked as a Graduate Research Assistant at the **Metaverse Center, [MBZUAI](https://mbzuai.ac.ae/)**, and as a Software Engineer - AI at **EPAM Systems (client: HUMAIN)**, Dubai.
@@ -33,10 +37,19 @@ about: |
   - **Immersive Human-Computer Interaction**: AI-driven interaction techniques for AR/VR/XR and metaverse environments
   - **Agentic AI**: agents that can perceive, reason, plan, and autonomously interact with operating systems and applications
 
+# "Currently working on" line shown at the end of About, with an obfuscated email.
+current_focus: Saad is currently working on **OmniTutor** — a USD-based architecture for embodied conversational agents — and on Agentic Operating Systems for AI PCs at Dell Technologies. Please feel free to contact Saad at
+email_obfuscated: msaad104 at uottawa dot ca
+
+# Affiliation logos shown in a row under About.
+# TODO: add a University of Ottawa logo file (e.g. /assets/img/uottawa_logo.png) and uncomment below.
 affiliations:
   - img: /assets/img/mbzuai_logo.png
     url: https://mbzuai.ac.ae/
     alt: MBZUAI
+  # - img: /assets/img/uottawa_logo.png
+  #   url: https://www.uottawa.ca/en
+  #   alt: University of Ottawa
 
 news:
   - date: "2026.05"
@@ -60,6 +73,13 @@ news:
   - date: "2023.01"
     text: Joined the **Metaverse Center, MBZUAI**, Abu Dhabi, as a Graduate Research Assistant.
 
+# Publication fields: badge (venue label on thumbnail), title, authors (HTML ok —
+# wrap your name in <strong>...</strong>, add <sup>*</sup> for equal contribution and
+# <sup>#</sup> for corresponding author), venue, tldr, links (list of label/url,
+# e.g. label: "code"), teaser (thumbnail image path).
+# TODO: every entry below is missing a `teaser:` thumbnail — add e.g.
+#   teaser: /assets/img/<paper-figure>.png
+# Until then a placeholder image is shown.
 publications:
   - badge: CHI-W 2026
     title: "Multimodal Interaction through Embodied Agents: An Intelligent Assistant for Immersive Virtual Environments"
@@ -176,6 +196,11 @@ misc:
       label: Travel
     - img: /assets/img/prof_pic.jpeg
       label: Dubai Marina
+    # TODO: add a third photo so the 3-column grid row is full:
+    # - img: /assets/img/<file>
+    #   label: <caption>
+  # TODO: add your favorite quote to render the "Favorite Quote" block:
+  # quote: '"..." – Author'
 
 skills:
   - category: Programming Languages
