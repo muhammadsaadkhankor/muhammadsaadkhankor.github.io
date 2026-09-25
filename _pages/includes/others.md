@@ -37,9 +37,6 @@
 
 # 🎙 Miscellaneous
 
-### Travel
-Saad enjoys travelling and exploring new places, and keeps up with the latest advances in AI by reading and writing scholarly articles.
-
 ### Sports
 Saad loves sports and always makes time for cricket. He stays active with regular gym workouts.
 
@@ -73,21 +70,14 @@ Saad loves sports and always makes time for cricket. He stays active with regula
     }
 </style>
 
+<!-- Photo grid: add badge-container blocks here when you have photos to show.
 <div class="container">
-
-    <div class="badge-container">
-        <div class="badge">Travel</div>
-        <img src='images/saad_travel.png' alt="Travel photo" style="width: 100%; height: auto; aspect-ratio: 4/3; object-fit: cover;"/>
-    </div>
-
-    <!-- TODO: add more photos as extra badge-container blocks, e.g.
     <div class="badge-container">
         <div class="badge">Caption</div>
         <img src='images/your_photo.jpg' alt="..." style="width: 100%; height: auto; aspect-ratio: 4/3; object-fit: cover;"/>
     </div>
-    -->
-
 </div>
+-->
 
 <!-- ### Favorite Quote
 Add your favorite quote here. -->
