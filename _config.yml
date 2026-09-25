@@ -6,10 +6,10 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Raza Imam"
-description              : "PhD Candidate at MBZUAI"
-repository               : "Razaimam45/razaimam45.github.io"
-google_scholar_stats_use_cdn : true
+title                    : "Muhammad Saad"
+description              : "M.A.Sc. Student in Electrical and Computer Engineering, University of Ottawa"
+repository               : "muhammadsaadkhankor/muhammadsaadkhankor.github.io"
+google_scholar_stats_use_cdn : false
 
 # google analytics
 google_analytics_id      : ""
@@ -21,15 +21,15 @@ baidu_site_verification  : ""
 
 # Site Author
 author:
-  name             : "Raza Imam"
-  avatar           : "images/RAZA_dp3.jpeg"
-  bio              : #"ETH Zurich"
-  location         : "Abu Dhabi, United Arab Emirates"
+  name             : "Muhammad Saad"
+  avatar           : "images/saad_pic.jpeg"
+  bio              : "M.A.Sc. Student, University of Ottawa"
+  location         : "Ottawa, Canada"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=iipzwX0AAAAJ"
-  email            : "raza.imam@mbzuai.ac.ae"
-  researchgate     : "https://www.researchgate.net/profile/Raza-Imam-2"
+  googlescholar    : "https://scholar.google.com/citations?user=egchmHYAAAAJ&hl=en"
+  email            : "msaad104@uottawa.ca"
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -37,13 +37,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "Razaimam45"
+  github           : "muhammadsaadkhankor"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/razaimam45/"
+  linkedin         : "https://www.linkedin.com/in/muhammad-saad-b73ba2232/"
   dblp             : ""
   orcid            : ""
   pinterest        :
@@ -51,7 +51,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "razaimam45"
+  twitter          :
   vine             :
   weibo            :
   xing             :

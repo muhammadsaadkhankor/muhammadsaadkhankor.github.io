@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "About Raza"
-    url: "/#about-raza"
+  - title: "About Saad"
+    url: "/#about-saad"
 
   - title: "News"
     url: "/#-news"
@@ -18,8 +18,8 @@ main:
   - title: "Services"
     url: "/#-services"
 
-  - title: "Internships"
-    url: "/#-internships"
+  - title: "Experiences"
+    url: "/#-experiences"
 
   - title: "Miscellaneous"
     url: "/#-miscellaneous"
