@@ -18,6 +18,7 @@
 # 💬 Services
 
 - Teaching Assistant:
+    - Computer Architecture course, University of Ottawa.
     - Python programming course, DIP Lab, Islamia College Peshawar.
 
 - Mentorship:
