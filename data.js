@@ -249,7 +249,7 @@ const EDUCATION = [
   {
     period: "2017.08 – 2021.09",
     place: "Peshawar, Pakistan",
-    degree: "B.Sc. in Software Engineering",
+    degree: "BS in Software Engineering",
     school: "Islamia College Peshawar",
     tags: ["Software Engineering", "AI", "Programming", "Computer Vision"],
   },
